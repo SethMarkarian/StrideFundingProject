@@ -1,0 +1,21 @@
+In order to import the datasets into R, a package to read excel files needs to be used.
+
+First run
+
+install.packages('readxl')
+
+Then following installation run
+
+library(readxl)
+
+This will install the readxl package to the current environment. Then I used the "read_xlsx" file to read the data sets. 
+
+The following data sets were imported and named as follows
+
+bls - downloadable xlsx file from BLS https://www.bls.gov/oes/current/oes_nat.htm
+
+crosswalk - the CIP SOC 2020 Crosswalk https://nces.ed.gov/ipeds/cipcode/post3.aspx?y=56 using only the CIP-SOC sheet
+
+CIPCrosswalk - csv downloaded that converts 2010 to 2020 CIPS https://nces.ed.gov/ipeds/cipcode/crosswalk.aspx?y=56
+
+
