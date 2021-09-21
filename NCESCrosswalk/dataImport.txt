@@ -12,7 +12,7 @@ This will install the readxl package to the current environment. Then I used the
 
 The following data sets were imported and named as follows
 
-bls - downloadable xlsx file from BLS https://www.bls.gov/oes/current/oes_nat.htm
+bls - downloadable xlsx file from BLS https://www.bls.gov/oes/current/oes_nat.html
 
 crosswalk - the CIP SOC 2020 Crosswalk https://nces.ed.gov/ipeds/cipcode/post3.aspx?y=56 using only the CIP-SOC sheet
 
