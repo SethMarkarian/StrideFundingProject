@@ -1,5 +1,5 @@
 # Input 2010 CIP code with a "=" in front (due to weird formatting)
-CIPCode = "=29.0201"
+CIPCode = "=01.0000"
 # First locate index of 2010 CIP Code, then obtain the 2020 CIP code from the same indexed location
 CIP = sub("=","",CIPCrosswalk$Current.code[which(CIPCrosswalk$Original.code == CIPCode)])
 
@@ -16,10 +16,15 @@ for(i in SOCs){
     j = j + 1
   }
 }
-# simple estimation calculation of yearly income based on weighting median income across all OCCs equally
+#This weights the average based on emplyoment numbers i.e. expected value
+employment = as.integer(bls$TOT_EMP[ind])
+# simple estimation calculation of yearly income based on weighting median income across all OCCs
 avg = 0
-for(i in ind){
-  val = 1/(length(ind))*(as.integer(bls$A_MEDIAN[i]))
+for(i in 1:length(ind)){
+  val = employment[i]/(sum(employment))*(as.integer(bls$A_MEDIAN[ind[i]])) # Can be edited for different percentiles eg. A_PCT25 or A_PCT10
+  print(val)
   avg = avg + val
 }
 print(avg)
+
+
