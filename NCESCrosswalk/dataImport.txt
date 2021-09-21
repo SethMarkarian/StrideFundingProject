@@ -8,14 +8,29 @@ Then following installation run
 
 library(readxl)
 
+Set the working directory to where the file is
+
+setwd("~/StrideFundingProject")
+
 This will install the readxl package to the current environment. Then I used the "read_xlsx" file to read the data sets. 
 
 The following data sets were imported and named as follows
 
-bls - downloadable xlsx file from BLS https://www.bls.gov/oes/current/oes_nat.html
 
-crosswalk - the CIP SOC 2020 Crosswalk https://nces.ed.gov/ipeds/cipcode/post3.aspx?y=56 using only the CIP-SOC sheet
 
-CIPCrosswalk - csv downloaded that converts 2010 to 2020 CIPS https://nces.ed.gov/ipeds/cipcode/crosswalk.aspx?y=56
+bls = read_xlsx(file.choose()) 
+
+- downloadable xlsx file from BLS https://www.bls.gov/oes/current/oes_nat.html
+Named "national_M2020_dl.xlsx"
+
+crosswalk = read_xlsx(file.choose(),"CIP-SOC")
+
+ - the CIP SOC 2020 Crosswalk https://nces.ed.gov/ipeds/cipcode/post3.aspx?y=56 using only the CIP-SOC sheet
+Named "CIP2020_SOC2018_Crosswalk.xlsx"
+
+CIPCrosswalk = read.csv(file.choose())
+
+- csv downloaded that converts 2010 to 2020 CIPS https://nces.ed.gov/ipeds/cipcode/crosswalk.aspx?y=56
+Named "Crosswalk.csv"
 
 
