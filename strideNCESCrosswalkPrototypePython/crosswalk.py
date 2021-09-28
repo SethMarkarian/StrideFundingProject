@@ -74,8 +74,10 @@ fieldOfStudyDf = pd.read_csv(fieldOfStudyPath,usecols=fieldOfStudyCols)
 
 if __name__ == '__main__':
     try:
-        CIPCode = sys.argv[1]
-        CIPCodeKind = sys.argv[2]
+        # CIPCode = sys.argv[1]
+        # CIPCodeKind = sys.argv[2]
+        CIPCode = input("Enter CIP Code: ")
+        CIPCodeKind = input("Enter 2020/2010: ")
     except IndexError:
         raise SystemExit(f"Usage: {sys.argv[0]} <CIP_code> <CIP_code_year>")
     if CIPCodeKind == '2010':
