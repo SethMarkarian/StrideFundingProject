@@ -81,9 +81,9 @@ if __name__ == '__main__':
     except IndexError:
         raise SystemExit(f"Usage: {sys.argv[0]} <CIP_code> <CIP_code_year>")
     if CIPCodeKind == '2010':
-        print(getSOCDataFromSOCCodes(getSOCCodeFromCIP2020Code(get2020CIPCode(CIPCode))))
+        print(f'{getSOCDataFromSOCCodes(getSOCCodeFromCIP2020Code(get2020CIPCode(CIPCode)))}')
     elif CIPCodeKind == '2020':
-        print(getSOCDataFromSOCCodes(getSOCCodeFromCIP2020Code(CIPCode)))
+        print(f'{getSOCDataFromSOCCodes(getSOCCodeFromCIP2020Code(CIPCode))}')
     else:
         raise SystemExit("<CIP_code_year> == 2010 || 2020 ")
     
