@@ -48,34 +48,33 @@ def getSOCCodeFromCIP2020Code(CIPCode2020):
     
 def getSOCDataFromSOCCodes(SOCCode2018List):
     return SOCDataDf.query('OCC_CODE in @SOCCode2018List').loc[:, ['OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'A_MEAN']]
-    
-CIP2010toCIP2020Path = 'crosswalk.csv'
-CIP2020ToSOCPath = 'CIP2020_SOC2018_Crosswalk.xlsx'
-SOCDataPath = 'national_M2020_dl.xlsx'
-fieldOfStudyPath = 'FieldOfStudyData1617_1718_PP.csv'
-
-
-CIP2010toCIP2020Df = pd.read_csv(CIP2010toCIP2020Path)
-CIP2010toCIP2020Df.columns = [column.replace(" ", "_")
-                               for column in CIP2010toCIP2020Df.columns]
-CIP2010toCIP2020Df['Original_code'] = CIP2010toCIP2020Df['Original_code'].apply(cleanCIPCode)
-CIP2010toCIP2020Df['Current_code'] = CIP2010toCIP2020Df['Current_code'].apply(cleanCIPCode)
-
-
-CIP2020ToSOCDf = pd.read_excel(CIP2020ToSOCPath, sheet_name=1)
-CIP2020ToSOCDf['CIP2020Code'] = CIP2020ToSOCDf['CIP2020Code'].apply(convertNumericalCIPCodetoString)
-CIP2020ToSOCDf['CIP2020CodeMain'] = CIP2020ToSOCDf['CIP2020Code'].apply(lambda x : str(x)[:2])
-CIP2020ToSOCDf['CIP2020CodeSubMain'] = CIP2020ToSOCDf['CIP2020Code'].apply(lambda x : str(x)[:5])
-
-SOCDataDf = pd.read_excel(SOCDataPath, sheet_name=0)
-
-fieldOfStudyCols=['UNITID', 'INSTNM', 'CIPCODE', 'CREDLEV', 'EARN_MDN_HI_1YR', 'EARN_MDN_HI_2YR']
-fieldOfStudyDf = pd.read_csv(fieldOfStudyPath,usecols=fieldOfStudyCols)
 
 if __name__ == '__main__':
+    CIP2010toCIP2020Path = 'crosswalk.csv'
+    CIP2020ToSOCPath = 'CIP2020_SOC2018_Crosswalk.xlsx'
+    SOCDataPath = 'national_M2020_dl.xlsx'
+    fieldOfStudyPath = 'FieldOfStudyData1617_1718_PP.csv'
+
+
+    CIP2010toCIP2020Df = pd.read_csv(CIP2010toCIP2020Path)
+    CIP2010toCIP2020Df.columns = [column.replace(" ", "_")
+                                for column in CIP2010toCIP2020Df.columns]
+    CIP2010toCIP2020Df['Original_code'] = CIP2010toCIP2020Df['Original_code'].apply(cleanCIPCode)
+    CIP2010toCIP2020Df['Current_code'] = CIP2010toCIP2020Df['Current_code'].apply(cleanCIPCode)
+
+
+    CIP2020ToSOCDf = pd.read_excel(CIP2020ToSOCPath, sheet_name=1)
+    CIP2020ToSOCDf['CIP2020Code'] = CIP2020ToSOCDf['CIP2020Code'].apply(convertNumericalCIPCodetoString)
+    CIP2020ToSOCDf['CIP2020CodeMain'] = CIP2020ToSOCDf['CIP2020Code'].apply(lambda x : str(x)[:2])
+    CIP2020ToSOCDf['CIP2020CodeSubMain'] = CIP2020ToSOCDf['CIP2020Code'].apply(lambda x : str(x)[:5])
+
+    SOCDataDf = pd.read_excel(SOCDataPath, sheet_name=0)
+
+    # fieldsOfStudyDataset is not supported now
+    # fieldOfStudyCols=['UNITID', 'INSTNM', 'CIPCODE', 'CREDLEV', 'EARN_MDN_HI_1YR', 'EARN_MDN_HI_2YR']
+    # fieldOfStudyDf = pd.read_csv(fieldOfStudyPath,usecols=fieldOfStudyCols)
+    
     try:
-        # CIPCode = sys.argv[1]
-        # CIPCodeKind = sys.argv[2]
         CIPCode = input("Enter CIP Code: ")
         CIPCodeKind = input("Enter 2020/2010: ")
     except IndexError:
