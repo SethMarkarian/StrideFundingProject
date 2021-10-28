@@ -3,7 +3,9 @@ import sys
 
 def SOCLookup(title, df):
     pd.set_option('display.max_rows', None)
-    print(df[df['SOC2018Title'].str.contains(title, case = False)])
+    newdf = df[df['SOC2018Title'].str.contains(title, case = False)]
+    newdf = newdf.drop_duplicates()
+    print(newdf)
     main()
 
 
