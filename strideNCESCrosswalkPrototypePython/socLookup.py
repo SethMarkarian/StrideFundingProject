@@ -1,18 +1,20 @@
+from socket import socket
 import pandas as pd
 import sys
+from psql.main import getPSQLOutput
 
 def SOCLookup(title, df):
     pd.set_option('display.max_rows', None)
-    newdf = df[df['SOC2018Title'].str.contains(title, case = False)]
+    newdf = df[df['soc2018codetitle'].str.contains(title, case = False)]
     newdf = newdf.drop_duplicates()
-    print(newdf)
+    print(newdf.to_string(index = False))
     main()
 
-
 def importingAndSetup():
-    CIP2020ToSOCPath = 'CIP2020_SOC2018_Crosswalk.xlsx'
-    CIP2020ToSOCDf = pd.read_excel(CIP2020ToSOCPath, sheet_name=1)  
-    SOCdf = CIP2020ToSOCDf[['SOC2018Title', 'SOC2018Code']].copy()
+    SOCdf = getPSQLOutput('SELECT SOC2018CodeTitle, SOC2018Code FROM cip2020_soc2018')
+    # CIP2020ToSOCPath = 'CIP2020_SOC2018_Crosswalk.xlsx'
+    # CIP2020ToSOCDf = pd.read_excel(CIP2020ToSOCPath, sheet_name=1)  
+    SOCdf = SOCdf[['soc2018codetitle', 'soc2018code']].copy()
     return SOCdf
 
 def main():
