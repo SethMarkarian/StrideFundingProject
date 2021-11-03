@@ -2,5 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+**/stride_env
+**/stride_data.egg-info
 __pycache__
 strideNCESCrosswalkPrototypePython/~$CIP2020_SOC2018_Crosswalk.xlsx
