@@ -1,0 +1,89 @@
+---
+title: "Primative Data Visualization"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "~/Documents/Fall\ 2021/StrideFundingProject")
+library(readxl)
+library(stringr)
+library(parcats)
+library(easyalluvial)
+library(collapsibleTree)
+```
+
+## Alluvial Plots
+```{r, include=FALSE}
+#bls = read_xlsx("NCESCrosswalk/Data\ Sets/") 
+crosswalk = read_xlsx("NCESCrosswalk/Data\ Sets/CIP2020_SOC2018_Crosswalk.xlsx","CIP-SOC")
+```
+
+```{r cars, include=FALSE}
+newData <- c(crosswalk[1:20,1],crosswalk[1:20,3],crosswalk[1:20,2],crosswalk[1:20,4])
+newData$CIP2 = str_trunc(newData$CIP2020Code,2,ellipsis="")
+newData$CIP4 = str_trunc(newData$CIP2020Code,5,ellipsis="")
+newData$freq = rep(seq(1,10),2)
+```
+
+```{r, echo=FALSE}
+alluvial_wide(data.frame(newData$CIP2020Title,newData$SOC2018Title), stratum_labels=TRUE, stratum_label_size = 2)
+```
+```{r asdfasdfa, include=FALSE}
+newData <- c(crosswalk[1:300,1],crosswalk[1:300,3],crosswalk[1:300,2],crosswalk[1:300,4])
+newData$CIP2 = str_trunc(newData$CIP2020Code,2,ellipsis="")
+newData$CIP4 = str_trunc(newData$CIP2020Code,5,ellipsis="")
+#newData$freq = rep(seq(1,10),2)
+```
+
+```{r, include=FALSE}
+alluvial_wide(data.frame(newData$CIP2,newData$CIP4,newData$CIP2020Title,newData$SOC2018Title), stratum_labels=FALSE, stratum_label_size = 2, color = FALSE)
+```
+```{r asdf, include=FALSE}
+newData <- c(crosswalk[1:3000,1],crosswalk[1:3000,3],crosswalk[1:3000,2],crosswalk[1:3000,4])
+newData$CIP2 = str_trunc(newData$CIP2020Code,2,ellipsis="")
+newData$CIP4 = str_trunc(newData$CIP2020Code,5,ellipsis="")
+#newData$freq = rep(seq(1,10),2)
+Data = data.frame(newData)
+```
+
+## Tree Diagrams
+
+```{r pressure, echo=FALSE}
+collapsibleTree(
+  Data,
+  hierarchy = c("CIP2","CIP4","CIP2020Code", "SOC2018Title"),
+  #nodeSize = "freq",
+  #fillByLevel = FALSE,
+  #attribute = "freq",
+  zoomable = FALSE,
+  tooltip = FALSE,
+  width = 1000,
+  percentOfParent = FALSE,
+  collapsed = TRUE
+)
+```
+
+
+
+```{r, include=FALSE}
+newData <- c(crosswalk[1:100,1],crosswalk[1:100,3],crosswalk[1:100,2],crosswalk[1:100,4])
+newData$CIP2 = str_trunc(newData$CIP2020Code,2,ellipsis="")
+newData$CIP4 = str_trunc(newData$CIP2020Code,5,ellipsis="")
+newData$freq = rep(seq(1,10),10)
+Data = data.frame(newData)
+```
+
+```{r, echo=FALSE}
+collapsibleTreeSummary(
+  Data,
+  hierarchy = c("CIP2","CIP4","CIP2020Code", "SOC2018Title"),
+  #nodeSize = "freq",
+  #fillByLevel = FALSE,
+  attribute = "freq",
+  zoomable = FALSE,
+  tooltip = TRUE,
+  width = 1000,
+  percentOfParent = TRUE
+)
+```
