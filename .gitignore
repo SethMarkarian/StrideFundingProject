@@ -6,4 +6,5 @@
 **/stride_data.egg-info
 __pycache__
 database_init.txt
+matched_soc.csv
 strideNCESCrosswalkPrototypePython/~$CIP2020_SOC2018_Crosswalk.xlsx

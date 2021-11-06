@@ -1,18 +1,19 @@
 from stride_data.db.database import DataLake, DataLakeConfig
 import os
 import re
+import pandas as pd
 
-N_GRAM_MIN = 4
+df = pd.DataFrame()
 
 def queryData(stringQuery, socMap):
     stringQuery = stringQuery.replace('=', '==').replace('%', '=%').replace('_', '=_')
-    data = db_conn.execute("SELECT occ_code FROM bls2020 WHERE occ_title ILIKE %(like)s ESCAPE '=';",
+    data = db_conn.execute("SELECT occ_title, occ_code FROM bls2020 WHERE occ_title ILIKE %(like)s ESCAPE '=';",
      dict(like= '%'+stringQuery+'%'))
     for tupleData in data:
         if tupleData[0] not in soc_match_freq_map:
-            socMap[tupleData[0]] = 1
+            socMap[tupleData] = 1
         else:
-            socMap[tupleData[0]] += 1
+            socMap[tupleData] += 1
 
 databaseFile = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
  'database_init.txt'), 'r')
@@ -28,21 +29,18 @@ db_conn.connect(config)
 socFile = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
  'soc_unmatched.txt'), 'r')
 
-
-outputSocFileMatch = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
- 'soc_matched.txt'), 'w')
-
 uniqueSOCTitles = {}
 for line in socFile:
     line = line.strip()
     if line not in uniqueSOCTitles:
         uniqueSOCTitles[line] = True
 
+nullKeys = 0
+finalList = []
 for key in uniqueSOCTitles:
     soc_match_freq_map = {}
-    name_array = key.split()
+    name_array = re.split(r'\W+', key)
     for item in name_array:
-        item = item.strip('-')
         if len(item) > 1:
             queryData(item, soc_match_freq_map)
     maxSoc = []
@@ -53,13 +51,24 @@ for key in uniqueSOCTitles:
             maxFreq = value
         elif value == maxFreq:
             maxSoc.append(mapKey)
+
     if len(maxSoc) == 0:
-        maxSoc = 'NULL'
-        outputSocFileMatch.write(f'{key} -> {maxSoc}\n')
+        nullKeys += 1
+        finalList.append([key, 'NULL', 'NULL'])
     else:
         for soc in maxSoc:
-            outputSocFileMatch.write(f'{key} -> {soc}\n')
+            finalList.append([key, soc[0], soc[1]])
 
-outputSocFileMatch.close()
+totalNames = len(uniqueSOCTitles)
+matchedNames = totalNames - nullKeys
+print('ANALYSIS'.ljust(50), '\n')
+print(f'Total job titles analyzed -> {totalNames}'.ljust(50), '(1)\n')
+print(f'Total matched -> {matchedNames}'.ljust(50), '(2)\n')
+print(f'Percentage matched -> {(matchedNames*100.0)/totalNames}'.ljust(50), '(3)\n')
+print('Output written in matched_soc.csv'.ljust(50), '(4)\n')
+df = df.append(finalList, ignore_index=True)
+df.columns = ['Original_Occupation_Name', 'Matched_SOC_Title', 'Matched_SOC_Code']
+df.to_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+ 'matched_soc.csv'), index=False)
 socFile.close()
 db_conn.close()
