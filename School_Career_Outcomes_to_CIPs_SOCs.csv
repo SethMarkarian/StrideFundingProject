@@ -1,5 +1,5 @@
 College/University,2020 CIP Code,Major,Sector/Industry,Organization/Instiution,Job Title,% Industry,Associated 2018 SOC
-Georgia Institute of Technology,14.0201,Aerospace Engineering,NULL,NULL,NULL,84.6%,NULL
+Georgia Institute of Technology,14.0201,Aerospace Engineering,NULL,NULL,NULL,0.85,NULL
 Yale University,5.0101,African American Studies,Teaching/Curriculum Development,NULL,NULL,27.27,NULL
 Yale University,5.0101,African American Studies,Project Management,NULL,NULL,13.64,NULL
 Yale University,5.0101,African American Studies,Consulting,NULL,NULL,9.09,NULL
@@ -372,11 +372,11 @@ Brown University,27.0301,Applied Mathematics-Economics,Health and Human Services
 Brown University,27.0301,Applied Mathematics-Economics,Government,NULL,NULL,0.010,NULL
 Brown University,27.0301,Applied Mathematics-Economics,Education: K-12,NULL,NULL,0.005,NULL
 Brown University,27.0301,Applied Mathematics-Economics,"Advertising, Marketing, PR",NULL,NULL,0.026,NULL
-Northeastern University,14.1201,Applied Physics,"Professional, Scientific, and Technical Services",NULL,NULL,44.40%,NULL
-Northeastern University,14.1201,Applied Physics,Health Care and Social Assistance,NULL,NULL,22.20%,NULL
-Northeastern University,14.1201,Applied Physics,Educational Services,NULL,NULL,11.10%,NULL
-Northeastern University,14.1201,Applied Physics,Manufacturing,NULL,NULL,11.10%,NULL
-Northeastern University,14.1201,Applied Physics,Finance and Insurance,NULL,NULL,11.10%,NULL
+Northeastern University,14.1201,Applied Physics,"Professional, Scientific, and Technical Services",NULL,NULL,0.44,NULL
+Northeastern University,14.1201,Applied Physics,Health Care and Social Assistance,NULL,NULL,0.22,NULL
+Northeastern University,14.1201,Applied Physics,Educational Services,NULL,NULL,0.11,NULL
+Northeastern University,14.1201,Applied Physics,Manufacturing,NULL,NULL,0.11,NULL
+Northeastern University,14.1201,Applied Physics,Finance and Insurance,NULL,NULL,0.11,NULL
 Yale University,14.1201,Applied Physics,Research: Laboratory,NULL,NULL,42.86,NULL
 Yale University,14.1201,Applied Physics,Advocacy/Campaigning/Lobbying,NULL,NULL,14.29,NULL
 Yale University,14.1201,Applied Physics,Engineering,NULL,NULL,14.29,NULL
@@ -402,19 +402,19 @@ Brown University,30.2201,Archeology & Ancient World,"Communications, Entertainme
 Brown University,4.0201,Architecture,Architecture and Urban Planning,NULL,NULL,0.714,NULL
 Brown University,4.0201,Architecture,"Community Organizing, Community.",NULL,NULL,0.143,NULL
 Brown University,4.0201,Architecture,"Communications, Entertainment",NULL,NULL,0.143,NULL
-Georgia Institute of Technology,4.0201,Architecture,NULL,NULL,NULL,70.0%,NULL
-Northeastern University,4.0201,Architecture,Construction,NULL,NULL,54.90%,47-0000
-Northeastern University,4.0201,Architecture,"Arts, Entertainment, and Recreation",NULL,NULL,11.00%,NULL
-Northeastern University,4.0201,Architecture,Educational Services,NULL,NULL,8.80%,NULL
-Northeastern University,4.0201,Architecture,"Professional, Scientific, and Technical Services",NULL,NULL,7.70%,NULL
-Northeastern University,4.0201,Architecture,Other Services (except Public Administration),NULL,NULL,4.40%,NULL
-Northeastern University,4.0201,Architecture,Public Administration,NULL,NULL,2.20%,NULL
-Northeastern University,4.0201,Architecture,Retail Trade,NULL,NULL,2.20%,NULL
-Northeastern University,4.0201,Architecture,Real Estate and Rental and Leasing,NULL,NULL,2.20%,NULL
-Northeastern University,4.0201,Architecture,Transportation and Warehousing,NULL,NULL,2.20%,NULL
-Northeastern University,4.0201,Architecture,Health Care and Social Assistance,NULL,NULL,1.10%,NULL
-Northeastern University,4.0201,Architecture,Manufacturing,NULL,NULL,1.10%,NULL
-Northeastern University,4.0201,Architecture,Management of Companies and Enterprises,NULL,NULL,1.10%,NULL
+Georgia Institute of Technology,4.0201,Architecture,NULL,NULL,NULL,0.70,NULL
+Northeastern University,4.0201,Architecture,Construction,NULL,NULL,0.55,47-0000
+Northeastern University,4.0201,Architecture,"Arts, Entertainment, and Recreation",NULL,NULL,0.11,NULL
+Northeastern University,4.0201,Architecture,Educational Services,NULL,NULL,0.09,NULL
+Northeastern University,4.0201,Architecture,"Professional, Scientific, and Technical Services",NULL,NULL,0.08,NULL
+Northeastern University,4.0201,Architecture,Other Services (except Public Administration),NULL,NULL,0.04,NULL
+Northeastern University,4.0201,Architecture,Public Administration,NULL,NULL,0.02,NULL
+Northeastern University,4.0201,Architecture,Retail Trade,NULL,NULL,0.02,NULL
+Northeastern University,4.0201,Architecture,Real Estate and Rental and Leasing,NULL,NULL,0.02,NULL
+Northeastern University,4.0201,Architecture,Transportation and Warehousing,NULL,NULL,0.02,NULL
+Northeastern University,4.0201,Architecture,Health Care and Social Assistance,NULL,NULL,0.01,NULL
+Northeastern University,4.0201,Architecture,Manufacturing,NULL,NULL,0.01,NULL
+Northeastern University,4.0201,Architecture,Management of Companies and Enterprises,NULL,NULL,0.01,NULL
 Yale University,4.0201,Architecture,Architecture/Urban Planning,NULL,NULL,60.00,NULL
 Yale University,4.0201,Architecture,"Research (Policy, Academic, Literary)",NULL,NULL,5.45,NULL
 Yale University,4.0201,Architecture,Business Development,NULL,NULL,3.64,NULL
@@ -435,11 +435,11 @@ Yale University,4.0201,Architecture,"Visual Arts (Graphic Design, Painting, Phot
 Yale University,4.0201,Architecture,Writing/Editing,NULL,NULL,1.82,NULL
 Davidson College,36.0110,Art,"Education, Social and Community Services & Nonprofits",Davidson College,College Advising Corps Advisor,0.000,NULL
 Davidson College,36.0110,Art,"Arts, Entertainment, Communication & Marketing",The Armory Show,VIP Lounge Host,0.000,NULL
-Northeastern University,36.011,Art,"Arts, Entertainment, and Recreation",NULL,NULL,33.30%,NULL
-Northeastern University,36.011,Art,Public Administration,NULL,NULL,16.70%,NULL
-Northeastern University,36.011,Art,Retail Trade,NULL,NULL,16.70%,NULL
-Northeastern University,36.011,Art,Manufacturing,NULL,NULL,16.70%,NULL
-Northeastern University,36.011,Art,Educational Services,NULL,NULL,16.70%,NULL
+Northeastern University,36.011,Art,"Arts, Entertainment, and Recreation",NULL,NULL,0.33,NULL
+Northeastern University,36.011,Art,Public Administration,NULL,NULL,0.17,NULL
+Northeastern University,36.011,Art,Retail Trade,NULL,NULL,0.17,NULL
+Northeastern University,36.011,Art,Manufacturing,NULL,NULL,0.17,NULL
+Northeastern University,36.011,Art,Educational Services,NULL,NULL,0.17,NULL
 Yale University,36.0110,Art,"Visual Arts (Graphic Design, Painting, Photography, Sculpture)",NULL,NULL,32.26,NULL
 Yale University,36.0110,Art,"Arts Administration (Museums, Galleries)",NULL,NULL,9.68,NULL
 Yale University,36.0110,Art,"Entertainment (Film/TV, Theatre, Music)",NULL,NULL,9.68,NULL
@@ -464,29 +464,29 @@ Yale University,40.0201,Astrophysics,"Research (Policy, Academic, Literary)",NUL
 Yale University,40.0201,Astrophysics,Teaching/Curriculum Development,NULL,NULL,7.14,NULL
 Brown University,NULL,Behavioral Decision Sciences,"Sciences, Scientific Research",NULL,NULL,0.500,NULL
 Brown University,NULL,Behavioral Decision Sciences,Consulting,NULL,NULL,0.500,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Health Care and Social Assistance,NULL,NULL,50.60%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Educational Services,NULL,NULL,18.00%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,"Professional, Scientific, and Technical Services",NULL,NULL,14.30%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Finance and Insurance,NULL,NULL,3.30%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,"Arts, Entertainment, and Recreation",NULL,NULL,2.90%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Other Services (except Public Administration),NULL,NULL,2.40%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Transportation and Warehousing,NULL,NULL,2.40%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Public Administration,NULL,NULL,1.60%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Information,NULL,NULL,1.60%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Manufacturing,NULL,NULL,1.20%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Real Estate and Rental and Leasing,NULL,NULL,0.80%,NULL
-Northeastern University,42.2706,Behavioral Neuroscience,Management of Companies and Enterprises,NULL,NULL,0.40%,NULL
-Northeastern University,26.0202,Biochemistry,Health Care and Social Assistance,NULL,NULL,50.80%,NULL
-Northeastern University,26.0202,Biochemistry,"Professional, Scientific, and Technical Services",NULL,NULL,18.90%,NULL
-Northeastern University,26.0202,Biochemistry,Educational Services,NULL,NULL,17.20%,NULL
-Northeastern University,26.0202,Biochemistry,Transportation and Warehousing,NULL,NULL,3.30%,NULL
-Northeastern University,26.0202,Biochemistry,Public Administration,NULL,NULL,2.50%,NULL
-Northeastern University,26.0202,Biochemistry,Other Services (except Public Administration),NULL,NULL,1.60%,NULL
-Northeastern University,26.0202,Biochemistry,Accommodation and Food Services,NULL,NULL,1.60%,NULL
-Northeastern University,26.0202,Biochemistry,Finance and Insurance,NULL,NULL,1.60%,NULL
-Northeastern University,26.0202,Biochemistry,Management of Companies and Enterprises,NULL,NULL,0.80%,NULL
-Northeastern University,26.0202,Biochemistry,Manufacturing,NULL,NULL,0.80%,NULL
-Northeastern University,26.0202,Biochemistry,Retail Trade,NULL,NULL,0.80%,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Health Care and Social Assistance,NULL,NULL,0.51,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Educational Services,NULL,NULL,0.18,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,"Professional, Scientific, and Technical Services",NULL,NULL,0.14,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Finance and Insurance,NULL,NULL,0.03,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,"Arts, Entertainment, and Recreation",NULL,NULL,0.03,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Other Services (except Public Administration),NULL,NULL,0.02,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Transportation and Warehousing,NULL,NULL,0.02,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Public Administration,NULL,NULL,0.02,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Information,NULL,NULL,0.02,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Manufacturing,NULL,NULL,0.01,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Real Estate and Rental and Leasing,NULL,NULL,0.01,NULL
+Northeastern University,42.2706,Behavioral Neuroscience,Management of Companies and Enterprises,NULL,NULL,0.00,NULL
+Northeastern University,26.0202,Biochemistry,Health Care and Social Assistance,NULL,NULL,0.51,NULL
+Northeastern University,26.0202,Biochemistry,"Professional, Scientific, and Technical Services",NULL,NULL,0.19,NULL
+Northeastern University,26.0202,Biochemistry,Educational Services,NULL,NULL,0.17,NULL
+Northeastern University,26.0202,Biochemistry,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,26.0202,Biochemistry,Public Administration,NULL,NULL,0.03,NULL
+Northeastern University,26.0202,Biochemistry,Other Services (except Public Administration),NULL,NULL,0.02,NULL
+Northeastern University,26.0202,Biochemistry,Accommodation and Food Services,NULL,NULL,0.02,NULL
+Northeastern University,26.0202,Biochemistry,Finance and Insurance,NULL,NULL,0.02,NULL
+Northeastern University,26.0202,Biochemistry,Management of Companies and Enterprises,NULL,NULL,0.01,NULL
+Northeastern University,26.0202,Biochemistry,Manufacturing,NULL,NULL,0.01,NULL
+Northeastern University,26.0202,Biochemistry,Retail Trade,NULL,NULL,0.01,NULL
 Brown University,26.021,Biochemistry & Molecular Biology,"Sciences, Scientific Research",NULL,NULL,0.618,NULL
 Brown University,26.021,Biochemistry & Molecular Biology,Education: K-12,NULL,NULL,0.059,NULL
 Brown University,26.021,Biochemistry & Molecular Biology,Consulting,NULL,NULL,0.088,NULL
@@ -494,14 +494,14 @@ Brown University,26.021,Biochemistry & Molecular Biology,Manufacturing,NULL,NULL
 Brown University,26.021,Biochemistry & Molecular Biology,Health and Human Services,NULL,NULL,0.088,NULL
 Brown University,26.021,Biochemistry & Molecular Biology,Financial Services,NULL,NULL,0.029,NULL
 Brown University,26.021,Biochemistry & Molecular Biology,"Communications, Entertainment",NULL,NULL,0.059,NULL
-Georgia Institute of Technology,14.0501,Bioengineering,NULL,NULL,NULL,73.3%,NULL
-Northeastern University,14.0501,Bioengineering,"Professional, Scientific, and Technical Services",NULL,NULL,34.70%,NULL
-Northeastern University,14.0501,Bioengineering,Health Care and Social Assistance,NULL,NULL,34.70%,NULL
-Northeastern University,14.0501,Bioengineering,Transportation and Warehousing,NULL,NULL,18.40%,NULL
-Northeastern University,14.0501,Bioengineering,Educational Services,NULL,NULL,6.10%,NULL
-Northeastern University,14.0501,Bioengineering,Other Services (except Public Administration),NULL,NULL,0.20%,NULL
-Northeastern University,14.0501,Bioengineering,Manufacturing,NULL,NULL,0.20%,NULL
-Northeastern University,14.0501,Bioengineering,"Arts, Entertainment, and Recreation",NULL,NULL,0.20%,NULL
+Georgia Institute of Technology,14.0501,Bioengineering,NULL,NULL,NULL,0.73,NULL
+Northeastern University,14.0501,Bioengineering,"Professional, Scientific, and Technical Services",NULL,NULL,0.35,NULL
+Northeastern University,14.0501,Bioengineering,Health Care and Social Assistance,NULL,NULL,0.35,NULL
+Northeastern University,14.0501,Bioengineering,Transportation and Warehousing,NULL,NULL,0.18,NULL
+Northeastern University,14.0501,Bioengineering,Educational Services,NULL,NULL,0.06,NULL
+Northeastern University,14.0501,Bioengineering,Other Services (except Public Administration),NULL,NULL,0.00,NULL
+Northeastern University,14.0501,Bioengineering,Manufacturing,NULL,NULL,0.00,NULL
+Northeastern University,14.0501,Bioengineering,"Arts, Entertainment, and Recreation",NULL,NULL,0.00,NULL
 Brown University,26.0101,Biology,"Sciences, Scientific Research",NULL,NULL,0.365,NULL
 Brown University,26.0101,Biology,Health and Human Services,NULL,NULL,0.183,NULL
 Brown University,26.0101,Biology,Consulting,NULL,NULL,0.107,NULL
@@ -576,19 +576,19 @@ Davidson College,26.0101,Biology,"Education, Social and Community Services & Non
 Davidson College,26.0101,Biology,"Healthcare, Medicine & Medical Research",Shawme animal hospital,Veterinary technician,0.000,29-2056
 Davidson College,26.0101,Biology,"Consulting, Management, Sales, HR & General Business",Boston Consulting Group,Visiting Associate,0.000,NULL
 Davidson College,26.0101,Biology,"Education, Social and Community Services & Nonprofits",Watson Fellowship,Watson Fellow,0.000,NULL
-Georgia Institute of Technology,26.0101,Biology,NULL,NULL,NULL,50.0%,NULL
-Northeastern University,26.0101,Biology,Health Care and Social Assistance,NULL,NULL,54.70%,NULL
-Northeastern University,26.0101,Biology,"Professional, Scientific, and Technical Services",NULL,NULL,17.70%,NULL
-Northeastern University,26.0101,Biology,Educational Services,NULL,NULL,12.30%,NULL
-Northeastern University,26.0101,Biology,"Arts, Entertainment, and Recreation",NULL,NULL,3.30%,NULL
-Northeastern University,26.0101,Biology,Other Services (except Public Administration),NULL,NULL,2.10%,NULL
-Northeastern University,26.0101,Biology,Accommodation and Food Services,NULL,NULL,2.10%,NULL
-Northeastern University,26.0101,Biology,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,1.60%,NULL
-Northeastern University,26.0101,Biology,Management of Companies and Enterprises,NULL,NULL,1.20%,NULL
-Northeastern University,26.0101,Biology,Administrative and Support and Waste Management and Remediation Services,NULL,NULL,0.80%,NULL
-Northeastern University,26.0101,Biology,Public Administration,NULL,NULL,0.80%,NULL
-Northeastern University,26.0101,Biology,Manufacturing,NULL,NULL,0.80%,NULL
-Northeastern University,26.0101,Biology,Transportation and Warehousing,NULL,NULL,0.80%,NULL
+Georgia Institute of Technology,26.0101,Biology,NULL,NULL,NULL,0.50,NULL
+Northeastern University,26.0101,Biology,Health Care and Social Assistance,NULL,NULL,0.55,NULL
+Northeastern University,26.0101,Biology,"Professional, Scientific, and Technical Services",NULL,NULL,0.18,NULL
+Northeastern University,26.0101,Biology,Educational Services,NULL,NULL,0.12,NULL
+Northeastern University,26.0101,Biology,"Arts, Entertainment, and Recreation",NULL,NULL,0.03,NULL
+Northeastern University,26.0101,Biology,Other Services (except Public Administration),NULL,NULL,0.02,NULL
+Northeastern University,26.0101,Biology,Accommodation and Food Services,NULL,NULL,0.02,NULL
+Northeastern University,26.0101,Biology,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,0.02,NULL
+Northeastern University,26.0101,Biology,Management of Companies and Enterprises,NULL,NULL,0.01,NULL
+Northeastern University,26.0101,Biology,Administrative and Support and Waste Management and Remediation Services,NULL,NULL,0.01,NULL
+Northeastern University,26.0101,Biology,Public Administration,NULL,NULL,0.01,NULL
+Northeastern University,26.0101,Biology,Manufacturing,NULL,NULL,0.01,NULL
+Northeastern University,26.0101,Biology,Transportation and Warehousing,NULL,NULL,0.01,NULL
 Brown University,14.0501,Biomedical Engineering,"Sciences, Scientific Research",NULL,NULL,0.220,NULL
 Brown University,14.0501,Biomedical Engineering,"Pharmaceuticals (Biotech, Medical ..",NULL,NULL,0.169,NULL
 Brown University,14.0501,Biomedical Engineering,Health and Human Services,NULL,NULL,0.051,NULL
@@ -623,29 +623,29 @@ Yale University,14.0501,Biomedical Engineering,Writing/Editing,NULL,NULL,1.20,NU
 Brown University,26.0203,Biophysics,"Sciences, Scientific Research",NULL,NULL,0.571,NULL
 Brown University,26.0203,Biophysics,"Environment, Sustainability",NULL,NULL,0.143,NULL
 Brown University,26.0203,Biophysics,Consulting,NULL,NULL,0.286,NULL
-Georgia Institute of Technology,52.0201,Business Administration,NULL,NULL,NULL,70.9%,NULL
-Northeastern University,52.0201,Business Administration,"Professional, Scientific, and Technical Services",NULL,NULL,29.30%,NULL
-Northeastern University,52.0201,Business Administration,Finance and Insurance,NULL,NULL,26.00%,NULL
-Northeastern University,52.0201,Business Administration,Retail Trade,NULL,NULL,5.70%,NULL
-Northeastern University,52.0201,Business Administration,Management of Companies and Enterprises,NULL,NULL,5.30%,NULL
-Northeastern University,52.0201,Business Administration,Health Care and Social Assistance,NULL,NULL,5.00%,NULL
-Northeastern University,52.0201,Business Administration,"Arts, Entertainment, and Recreation",NULL,NULL,4.50%,NULL
-Northeastern University,52.0201,Business Administration,Manufacturing,NULL,NULL,3.80%,NULL
-Northeastern University,52.0201,Business Administration,Educational Services,NULL,NULL,3.60%,NULL
-Northeastern University,52.0201,Business Administration,Other Services (except Public Administration),NULL,NULL,2.50%,NULL
-Northeastern University,52.0201,Business Administration,Information,NULL,NULL,2.40%,NULL
-Northeastern University,52.0201,Business Administration,Accommodation and Food Services,NULL,NULL,2.40%,NULL
-Northeastern University,52.0201,Business Administration,Wholesale Trade,NULL,NULL,2.10%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,"Professional, Scientific, and Technical Services",NULL,NULL,35.00%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,"Arts, Entertainment, and Recreation",NULL,NULL,15.00%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Information,NULL,NULL,7.50%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Health Care and Social Assistance,NULL,NULL,7.50%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Management of Companies and Enterprises,NULL,NULL,7.50%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Retail Trade,NULL,NULL,7.50%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Construction,NULL,NULL,7.50%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Wholesale Trade,NULL,NULL,5.00%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Finance and Insurance,NULL,NULL,5.00%,NULL
-Northeastern University,52.0201,Business Administration/Interactive Media,Educational Services,NULL,NULL,2.50%,NULL
+Georgia Institute of Technology,52.0201,Business Administration,NULL,NULL,NULL,0.71,NULL
+Northeastern University,52.0201,Business Administration,"Professional, Scientific, and Technical Services",NULL,NULL,0.29,NULL
+Northeastern University,52.0201,Business Administration,Finance and Insurance,NULL,NULL,0.26,NULL
+Northeastern University,52.0201,Business Administration,Retail Trade,NULL,NULL,0.06,NULL
+Northeastern University,52.0201,Business Administration,Management of Companies and Enterprises,NULL,NULL,0.05,NULL
+Northeastern University,52.0201,Business Administration,Health Care and Social Assistance,NULL,NULL,0.05,NULL
+Northeastern University,52.0201,Business Administration,"Arts, Entertainment, and Recreation",NULL,NULL,0.05,NULL
+Northeastern University,52.0201,Business Administration,Manufacturing,NULL,NULL,0.04,NULL
+Northeastern University,52.0201,Business Administration,Educational Services,NULL,NULL,0.04,NULL
+Northeastern University,52.0201,Business Administration,Other Services (except Public Administration),NULL,NULL,0.03,NULL
+Northeastern University,52.0201,Business Administration,Information,NULL,NULL,0.02,NULL
+Northeastern University,52.0201,Business Administration,Accommodation and Food Services,NULL,NULL,0.02,NULL
+Northeastern University,52.0201,Business Administration,Wholesale Trade,NULL,NULL,0.02,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,"Professional, Scientific, and Technical Services",NULL,NULL,0.35,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,"Arts, Entertainment, and Recreation",NULL,NULL,0.15,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Information,NULL,NULL,0.08,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Health Care and Social Assistance,NULL,NULL,0.08,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Management of Companies and Enterprises,NULL,NULL,0.08,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Retail Trade,NULL,NULL,0.08,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Construction,NULL,NULL,0.08,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Wholesale Trade,NULL,NULL,0.05,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Finance and Insurance,NULL,NULL,0.05,NULL
+Northeastern University,52.0201,Business Administration/Interactive Media,Educational Services,NULL,NULL,0.03,NULL
 Brown University,52.0799,"Business, Entrep. & Organ.",Financial Services,NULL,NULL,0.324,NULL
 Brown University,52.0799,"Business, Entrep. & Organ.",Consulting,NULL,NULL,0.137,NULL
 Brown University,52.0799,"Business, Entrep. & Organ.","Computing, IT",NULL,NULL,0.104,NULL
@@ -672,24 +672,24 @@ Brown University,52.0799,"Business, Entrep. & Organ.","Fine/Performing Arts, Cul
 Brown University,52.0799,"Business, Entrep. & Organ.",Energy and Utilities,NULL,NULL,0.006,NULL
 Brown University,52.0799,"Business, Entrep. & Organ.",Chemicals and Materials,NULL,NULL,0.003,NULL
 Brown University,52.0799,"Business, Entrep. & Organ.",Automotive and Transportation,NULL,NULL,0.006,NULL
-Northeastern University,26.0210,Cell and Molecular Biology,"Professional, Scientific, and Technical Services",NULL,NULL,50.00%,NULL
-Northeastern University,26.0210,Cell and Molecular Biology,Health Care and Social Assistance,NULL,NULL,22.70%,NULL
-Northeastern University,26.0210,Cell and Molecular Biology,Educational Services,NULL,NULL,18.20%,NULL
-Northeastern University,26.0210,Cell and Molecular Biology,Real Estate and Rental and Leasing,NULL,NULL,4.50%,NULL
-Northeastern University,26.0210,Cell and Molecular Biology,Finance and Insurance,NULL,NULL,4.50%,NULL
-Georgia Institute of Technology,14.0701,Chemical Engineering,NULL,NULL,NULL,63.9%,NULL
-Northeastern University,14.0701,Chemical Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,30.70%,NULL
-Northeastern University,14.0701,Chemical Engineering,Health Care and Social Assistance,NULL,NULL,23.30%,NULL
-Northeastern University,14.0701,Chemical Engineering,Manufacturing,NULL,NULL,13.40%,NULL
-Northeastern University,14.0701,Chemical Engineering,Utilities,NULL,NULL,4.60%,NULL
-Northeastern University,14.0701,Chemical Engineering,Transportation and Warehousing,NULL,NULL,4.20%,NULL
-Northeastern University,14.0701,Chemical Engineering,Other Services (except Public Administration),NULL,NULL,3.90%,NULL
-Northeastern University,14.0701,Chemical Engineering,Educational Services,NULL,NULL,3.50%,NULL
-Northeastern University,14.0701,Chemical Engineering,Management of Companies and Enterprises,NULL,NULL,2.80%,NULL
-Northeastern University,14.0701,Chemical Engineering,Accommodation and Food Services,NULL,NULL,2.10%,NULL
-Northeastern University,14.0701,Chemical Engineering,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,2.10%,NULL
-Northeastern University,14.0701,Chemical Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,1.80%,NULL
-Northeastern University,14.0701,Chemical Engineering,Wholesale Trade,NULL,NULL,1.40%,NULL
+Northeastern University,26.0210,Cell and Molecular Biology,"Professional, Scientific, and Technical Services",NULL,NULL,0.50,NULL
+Northeastern University,26.0210,Cell and Molecular Biology,Health Care and Social Assistance,NULL,NULL,0.23,NULL
+Northeastern University,26.0210,Cell and Molecular Biology,Educational Services,NULL,NULL,0.18,NULL
+Northeastern University,26.0210,Cell and Molecular Biology,Real Estate and Rental and Leasing,NULL,NULL,0.05,NULL
+Northeastern University,26.0210,Cell and Molecular Biology,Finance and Insurance,NULL,NULL,0.05,NULL
+Georgia Institute of Technology,14.0701,Chemical Engineering,NULL,NULL,NULL,0.64,NULL
+Northeastern University,14.0701,Chemical Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,0.31,NULL
+Northeastern University,14.0701,Chemical Engineering,Health Care and Social Assistance,NULL,NULL,0.23,NULL
+Northeastern University,14.0701,Chemical Engineering,Manufacturing,NULL,NULL,0.13,NULL
+Northeastern University,14.0701,Chemical Engineering,Utilities,NULL,NULL,0.05,NULL
+Northeastern University,14.0701,Chemical Engineering,Transportation and Warehousing,NULL,NULL,0.04,NULL
+Northeastern University,14.0701,Chemical Engineering,Other Services (except Public Administration),NULL,NULL,0.04,NULL
+Northeastern University,14.0701,Chemical Engineering,Educational Services,NULL,NULL,0.04,NULL
+Northeastern University,14.0701,Chemical Engineering,Management of Companies and Enterprises,NULL,NULL,0.03,NULL
+Northeastern University,14.0701,Chemical Engineering,Accommodation and Food Services,NULL,NULL,0.02,NULL
+Northeastern University,14.0701,Chemical Engineering,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,0.02,NULL
+Northeastern University,14.0701,Chemical Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,0.02,NULL
+Northeastern University,14.0701,Chemical Engineering,Wholesale Trade,NULL,NULL,0.01,NULL
 Yale University,14.0701,Chemical Engineering,Engineering,NULL,NULL,48.72,NULL
 Yale University,14.0701,Chemical Engineering,Finance,NULL,NULL,17.95,NULL
 Yale University,14.0701,Chemical Engineering,Consulting,NULL,NULL,10.26,NULL
@@ -739,18 +739,18 @@ Davidson College,40.0501,Chemistry,"Education, Social and Community Services & N
 Davidson College,40.0501,Chemistry,"Education, Social and Community Services & Nonprofits",University of Delaware,Summer Research Student,0.000,NULL
 Haverford College,40.0501,Chemistry,Education,The Grayson School,Teacher,0.000,25-1052
 Haverford College,40.0501,Chemistry,Education,Haverford College,Teaching Assistant;/Consultant,0.000,NULL
-Georgia Institute of Technology,40.0501,Chemistry,NULL,NULL,NULL,66.2%,NULL
-Northeastern University,40.0501,Chemistry,Health Care and Social Assistance,NULL,NULL,43.40%,NULL
-Northeastern University,40.0501,Chemistry,"Professional, Scientific, and Technical Services",NULL,NULL,22.20%,NULL
-Northeastern University,40.0501,Chemistry,Educational Services,NULL,NULL,9.10%,NULL
-Northeastern University,40.0501,Chemistry,Manufacturing,NULL,NULL,7.10%,NULL
-Northeastern University,40.0501,Chemistry,Transportation and Warehousing,NULL,NULL,5.10%,NULL
-Northeastern University,40.0501,Chemistry,Accommodation and Food Services,NULL,NULL,4.00%,NULL
-Northeastern University,40.0501,Chemistry,Other Services (except Public Administration),NULL,NULL,3.00%,NULL
-Northeastern University,40.0501,Chemistry,Management of Companies and Enterprises,NULL,NULL,2.00%,NULL
-Northeastern University,40.0501,Chemistry,Public Administration,NULL,NULL,2.00%,NULL
-Northeastern University,40.0501,Chemistry,Construction,NULL,NULL,1.00%,NULL
-Northeastern University,40.0501,Chemistry,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,1.00%,NULL
+Georgia Institute of Technology,40.0501,Chemistry,NULL,NULL,NULL,0.66,NULL
+Northeastern University,40.0501,Chemistry,Health Care and Social Assistance,NULL,NULL,0.43,NULL
+Northeastern University,40.0501,Chemistry,"Professional, Scientific, and Technical Services",NULL,NULL,0.22,NULL
+Northeastern University,40.0501,Chemistry,Educational Services,NULL,NULL,0.09,NULL
+Northeastern University,40.0501,Chemistry,Manufacturing,NULL,NULL,0.07,NULL
+Northeastern University,40.0501,Chemistry,Transportation and Warehousing,NULL,NULL,0.05,NULL
+Northeastern University,40.0501,Chemistry,Accommodation and Food Services,NULL,NULL,0.04,NULL
+Northeastern University,40.0501,Chemistry,Other Services (except Public Administration),NULL,NULL,0.03,NULL
+Northeastern University,40.0501,Chemistry,Management of Companies and Enterprises,NULL,NULL,0.02,NULL
+Northeastern University,40.0501,Chemistry,Public Administration,NULL,NULL,0.02,NULL
+Northeastern University,40.0501,Chemistry,Construction,NULL,NULL,0.01,NULL
+Northeastern University,40.0501,Chemistry,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,0.01,NULL
 Yale University,40.0501,Chemistry,Research: Laboratory,NULL,NULL,30.77,NULL
 Yale University,40.0501,Chemistry,Teaching/Curriculum Development,NULL,NULL,13.85,NULL
 Yale University,40.0501,Chemistry,Consulting,NULL,NULL,10.77,NULL
@@ -769,20 +769,20 @@ Yale University,40.0501,Chemistry,Office Administrative/Support Services,NULL,NU
 Yale University,40.0501,Chemistry,"Performance (Acting, Dance, Music)",NULL,NULL,1.54,NULL
 Yale University,40.0501,Chemistry,Writing/Editing,NULL,NULL,1.54,NULL
 Haverford College,NULL,"Cities, Growth & Structure",Business - Other,Newmark,Research Analyst,0.000,NULL
-Georgia Institute of Technology,4.0301,City Planning,NULL,NULL,NULL,78.1%,NULL
-Georgia Institute of Technology,14.0801,Civil Engineering,NULL,NULL,NULL,65.2%,NULL
-Northeastern University,14.0801,Civil Engineering,Construction,NULL,NULL,52.10%,NULL
-Northeastern University,14.0801,Civil Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,14.60%,NULL
-Northeastern University,14.0801,Civil Engineering,Management of Companies and Enterprises,NULL,NULL,11.00%,NULL
-Northeastern University,14.0801,Civil Engineering,Public Administration,NULL,NULL,2.70%,NULL
-Northeastern University,14.0801,Civil Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,2.70%,NULL
-Northeastern University,14.0801,Civil Engineering,Transportation and Warehousing,NULL,NULL,2.70%,NULL
-Northeastern University,14.0801,Civil Engineering,Educational Services,NULL,NULL,2.30%,NULL
-Northeastern University,14.0801,Civil Engineering,Finance and Insurance,NULL,NULL,1.80%,NULL
-Northeastern University,14.0801,Civil Engineering,Other Services (except Public Administration),NULL,NULL,1.80%,NULL
-Northeastern University,14.0801,Civil Engineering,Real Estate and Rental and Leasing,NULL,NULL,1.80%,NULL
-Northeastern University,14.0801,Civil Engineering,Utilities,NULL,NULL,1.40%,NULL
-Northeastern University,14.0801,Civil Engineering,Accommodation and Food Services,NULL,NULL,1.40%,NULL
+Georgia Institute of Technology,4.0301,City Planning,NULL,NULL,NULL,0.78,NULL
+Georgia Institute of Technology,14.0801,Civil Engineering,NULL,NULL,NULL,0.65,NULL
+Northeastern University,14.0801,Civil Engineering,Construction,NULL,NULL,0.52,NULL
+Northeastern University,14.0801,Civil Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,0.15,NULL
+Northeastern University,14.0801,Civil Engineering,Management of Companies and Enterprises,NULL,NULL,0.11,NULL
+Northeastern University,14.0801,Civil Engineering,Public Administration,NULL,NULL,0.03,NULL
+Northeastern University,14.0801,Civil Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,0.03,NULL
+Northeastern University,14.0801,Civil Engineering,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,14.0801,Civil Engineering,Educational Services,NULL,NULL,0.02,NULL
+Northeastern University,14.0801,Civil Engineering,Finance and Insurance,NULL,NULL,0.02,NULL
+Northeastern University,14.0801,Civil Engineering,Other Services (except Public Administration),NULL,NULL,0.02,NULL
+Northeastern University,14.0801,Civil Engineering,Real Estate and Rental and Leasing,NULL,NULL,0.02,NULL
+Northeastern University,14.0801,Civil Engineering,Utilities,NULL,NULL,0.01,NULL
+Northeastern University,14.0801,Civil Engineering,Accommodation and Food Services,NULL,NULL,0.01,NULL
 Yale University,NULL,Classical Civilization,Teaching/Curriculum Development,NULL,NULL,50.00,NULL
 Yale University,NULL,Classical Civilization,"Entertainment (Film/TV, Theatre, Music)",NULL,NULL,25.00,NULL
 Yale University,NULL,Classical Civilization,Operations,NULL,NULL,25.00,NULL
@@ -866,18 +866,18 @@ Yale University,30.2501,Cognitive Science,IT Technical Support,NULL,NULL,1.00,NU
 Yale University,30.2501,Cognitive Science,Ministry,NULL,NULL,1.00,NULL
 Yale University,30.2501,Cognitive Science,Operations,NULL,NULL,1.00,NULL
 Yale University,30.2501,Cognitive Science,Writing/Editing,NULL,NULL,1.00,NULL
-Northeastern University,9.0101,Communication Studies,"Arts, Entertainment, and Recreation",NULL,NULL,22.20%,NULL
-Northeastern University,9.0101,Communication Studies,"Professional, Scientific, and Technical Services",NULL,NULL,19.40%,NULL
-Northeastern University,9.0101,Communication Studies,Educational Services,NULL,NULL,8.10%,NULL
-Northeastern University,9.0101,Communication Studies,Retail Trade,NULL,NULL,7.90%,NULL
-Northeastern University,9.0101,Communication Studies,Health Care and Social Assistance,NULL,NULL,7.30%,NULL
-Northeastern University,9.0101,Communication Studies,Finance and Insurance,NULL,NULL,6.50%,NULL
-Northeastern University,9.0101,Communication Studies,Other Services (except Public Administration),NULL,NULL,6.20%,NULL
-Northeastern University,9.0101,Communication Studies,Information,NULL,NULL,5.60%,NULL
-Northeastern University,9.0101,Communication Studies,Management of Companies and Enterprises,NULL,NULL,4.80%,NULL
-Northeastern University,9.0101,Communication Studies,Accommodation and Food Services,NULL,NULL,2.50%,NULL
-Northeastern University,9.0101,Communication Studies,Real Estate and Rental and Leasing,NULL,NULL,2.20%,NULL
-Northeastern University,9.0101,Communication Studies,Manufacturing,NULL,NULL,1.70%,NULL
+Northeastern University,9.0101,Communication Studies,"Arts, Entertainment, and Recreation",NULL,NULL,0.22,NULL
+Northeastern University,9.0101,Communication Studies,"Professional, Scientific, and Technical Services",NULL,NULL,0.19,NULL
+Northeastern University,9.0101,Communication Studies,Educational Services,NULL,NULL,0.08,NULL
+Northeastern University,9.0101,Communication Studies,Retail Trade,NULL,NULL,0.08,NULL
+Northeastern University,9.0101,Communication Studies,Health Care and Social Assistance,NULL,NULL,0.07,NULL
+Northeastern University,9.0101,Communication Studies,Finance and Insurance,NULL,NULL,0.07,NULL
+Northeastern University,9.0101,Communication Studies,Other Services (except Public Administration),NULL,NULL,0.06,NULL
+Northeastern University,9.0101,Communication Studies,Information,NULL,NULL,0.06,NULL
+Northeastern University,9.0101,Communication Studies,Management of Companies and Enterprises,NULL,NULL,0.05,NULL
+Northeastern University,9.0101,Communication Studies,Accommodation and Food Services,NULL,NULL,0.03,NULL
+Northeastern University,9.0101,Communication Studies,Real Estate and Rental and Leasing,NULL,NULL,0.02,NULL
+Northeastern University,9.0101,Communication Studies,Manufacturing,NULL,NULL,0.02,NULL
 Brown University,51.2208,Community Health,"Sciences, Scientific Research",NULL,NULL,0.118,NULL
 Brown University,51.2208,Community Health,"Public Policy, Public Affairs",NULL,NULL,0.059,NULL
 Brown University,51.2208,Community Health,Health and Human Services,NULL,NULL,0.118,NULL
@@ -920,20 +920,20 @@ Brown University,26.1199,Computational Biology,Education: K-12,NULL,NULL,0.043,N
 Brown University,26.1199,Computational Biology,"Computing, IT",NULL,NULL,0.304,NULL
 Brown University,26.1199,Computational Biology,"Communications, Entertainment",NULL,NULL,0.087,NULL
 Brown University,26.1199,Computational Biology,Consulting,NULL,NULL,0.130,NULL
-Georgia Institute of Technology,NULL,Computational Science and Engineering,NULL,NULL,NULL,74.6%,NULL
-Georgia Institute of Technology,14.0901,Computer Engineering,NULL,NULL,NULL,56.3%,NULL
-Northeastern University,14.0901,Computer Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,54.30%,NULL
-Northeastern University,14.0901,Computer Engineering,Manufacturing,NULL,NULL,6.40%,NULL
-Northeastern University,14.0901,Computer Engineering,Health Care and Social Assistance,NULL,NULL,5.80%,NULL
-Northeastern University,14.0901,Computer Engineering,Finance and Insurance,NULL,NULL,4.00%,NULL
-Northeastern University,14.0901,Computer Engineering,Other Services (except Public Administration),NULL,NULL,4.00%,NULL
-Northeastern University,14.0901,Computer Engineering,Educational Services,NULL,NULL,4.00%,NULL
-Northeastern University,14.0901,Computer Engineering,Transportation and Warehousing,NULL,NULL,4.00%,NULL
-Northeastern University,14.0901,Computer Engineering,Information,NULL,NULL,2.90%,NULL
-Northeastern University,14.0901,Computer Engineering,Public Administration,NULL,NULL,2.90%,NULL
-Northeastern University,14.0901,Computer Engineering,Management of Companies and Enterprises,NULL,NULL,2.90%,NULL
-Northeastern University,14.0901,Computer Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,2.30%,NULL
-Northeastern University,14.0901,Computer Engineering,Utilities,NULL,NULL,2.30%,NULL
+Georgia Institute of Technology,NULL,Computational Science and Engineering,NULL,NULL,NULL,0.75,NULL
+Georgia Institute of Technology,14.0901,Computer Engineering,NULL,NULL,NULL,0.56,NULL
+Northeastern University,14.0901,Computer Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,0.54,NULL
+Northeastern University,14.0901,Computer Engineering,Manufacturing,NULL,NULL,0.06,NULL
+Northeastern University,14.0901,Computer Engineering,Health Care and Social Assistance,NULL,NULL,0.06,NULL
+Northeastern University,14.0901,Computer Engineering,Finance and Insurance,NULL,NULL,0.04,NULL
+Northeastern University,14.0901,Computer Engineering,Other Services (except Public Administration),NULL,NULL,0.04,NULL
+Northeastern University,14.0901,Computer Engineering,Educational Services,NULL,NULL,0.04,NULL
+Northeastern University,14.0901,Computer Engineering,Transportation and Warehousing,NULL,NULL,0.04,NULL
+Northeastern University,14.0901,Computer Engineering,Information,NULL,NULL,0.03,NULL
+Northeastern University,14.0901,Computer Engineering,Public Administration,NULL,NULL,0.03,NULL
+Northeastern University,14.0901,Computer Engineering,Management of Companies and Enterprises,NULL,NULL,0.03,NULL
+Northeastern University,14.0901,Computer Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,0.02,NULL
+Northeastern University,14.0901,Computer Engineering,Utilities,NULL,NULL,0.02,NULL
 Brown University,11.0701,Computer Science,"Computing, IT",NULL,NULL,0.558,NULL
 Brown University,11.0701,Computer Science,"Communications, Entertainment",NULL,NULL,0.136,NULL
 Brown University,11.0701,Computer Science,Financial Services,NULL,NULL,0.069,NULL
@@ -982,18 +982,18 @@ Davidson College,11.0701,Computer Science,"Science, Technology, Engineering, Mat
 Davidson College,11.0701,Computer Science,"Banking, Finance, Real Estate & Insurance",EY,Staff Consultant,0.000,NULL
 Haverford College,11.0701,Computer Science,Consulting,Accenture,Technology Analyst,0.000,15-1210
 Haverford College,11.0701,Computer Science,Technology,Capital Group Co,Technology Rotational Associate,0.000,NULL
-Northeastern University,11.0701,Computer Science,"Professional, Scientific, and Technical Services",NULL,NULL,55.70%,NULL
-Northeastern University,11.0701,Computer Science,Finance and Insurance,NULL,NULL,6.80%,NULL
-Northeastern University,11.0701,Computer Science,Health Care and Social Assistance,NULL,NULL,5.70%,NULL
-Northeastern University,11.0701,Computer Science,Transportation and Warehousing,NULL,NULL,5.30%,NULL
-Northeastern University,11.0701,Computer Science,Educational Services,NULL,NULL,4.50%,NULL
-Northeastern University,11.0701,Computer Science,Information,NULL,NULL,4.20%,NULL
-Northeastern University,11.0701,Computer Science,"Arts, Entertainment, and Recreation",NULL,NULL,3.80%,NULL
-Northeastern University,11.0701,Computer Science,Other Services (except Public Administration),NULL,NULL,2.70%,NULL
-Northeastern University,11.0701,Computer Science,Manufacturing,NULL,NULL,1.90%,NULL
-Northeastern University,11.0701,Computer Science,Management of Companies and Enterprises,NULL,NULL,1.90%,NULL
-Northeastern University,11.0701,Computer Science,Accommodation and Food Services,NULL,NULL,1.50%,NULL
-Northeastern University,11.0701,Computer Science,Wholesale Trade,NULL,NULL,1.50%,NULL
+Northeastern University,11.0701,Computer Science,"Professional, Scientific, and Technical Services",NULL,NULL,0.56,NULL
+Northeastern University,11.0701,Computer Science,Finance and Insurance,NULL,NULL,0.07,NULL
+Northeastern University,11.0701,Computer Science,Health Care and Social Assistance,NULL,NULL,0.06,NULL
+Northeastern University,11.0701,Computer Science,Transportation and Warehousing,NULL,NULL,0.05,NULL
+Northeastern University,11.0701,Computer Science,Educational Services,NULL,NULL,0.05,NULL
+Northeastern University,11.0701,Computer Science,Information,NULL,NULL,0.04,NULL
+Northeastern University,11.0701,Computer Science,"Arts, Entertainment, and Recreation",NULL,NULL,0.04,NULL
+Northeastern University,11.0701,Computer Science,Other Services (except Public Administration),NULL,NULL,0.03,NULL
+Northeastern University,11.0701,Computer Science,Manufacturing,NULL,NULL,0.02,NULL
+Northeastern University,11.0701,Computer Science,Management of Companies and Enterprises,NULL,NULL,0.02,NULL
+Northeastern University,11.0701,Computer Science,Accommodation and Food Services,NULL,NULL,0.02,NULL
+Northeastern University,11.0701,Computer Science,Wholesale Trade,NULL,NULL,0.02,NULL
 Yale University,11.0701,Computer Science,Programming/Software Development,NULL,NULL,53.02,NULL
 Yale University,11.0701,Computer Science,Engineering,NULL,NULL,17.79,NULL
 Yale University,11.0701,Computer Science,Finance,NULL,NULL,5.70,NULL
@@ -1118,41 +1118,41 @@ Brown University,30.2502,Contemplative Studies,Education: K-12,NULL,NULL,0.000,N
 Brown University,30.2502,Contemplative Studies,Consulting,NULL,NULL,0.000,NULL
 Brown University,30.2502,Contemplative Studies,"Computing, IT",NULL,NULL,0.000,NULL
 Brown University,30.2502,Contemplative Studies,Business Other (e.g. Real Estate/Ins.),NULL,NULL,0.000,NULL
-Northeastern University,43.0107,Criminal Justice,Public Administration,NULL,NULL,29.20%,NULL
-Northeastern University,43.0107,Criminal Justice,Other Services (except Public Administration),NULL,NULL,12.50%,NULL
-Northeastern University,43.0107,Criminal Justice,Educational Services,NULL,NULL,12.50%,NULL
-Northeastern University,43.0107,Criminal Justice,Finance and Insurance,NULL,NULL,11.10%,NULL
-Northeastern University,43.0107,Criminal Justice,"Professional, Scientific, and Technical Services",NULL,NULL,11.10%,NULL
-Northeastern University,43.0107,Criminal Justice,Health Care and Social Assistance,NULL,NULL,9.70%,NULL
-Northeastern University,43.0107,Criminal Justice,Retail Trade,NULL,NULL,4.20%,NULL
-Northeastern University,43.0107,Criminal Justice,Accommodation and Food Services,NULL,NULL,2.80%,NULL
-Northeastern University,43.0107,Criminal Justice,Management of Companies and Enterprises,NULL,NULL,2.80%,NULL
-Northeastern University,43.0107,Criminal Justice,Information,NULL,NULL,1.40%,NULL
-Northeastern University,43.0107,Criminal Justice,Real Estate and Rental and Leasing,NULL,NULL,1.40%,NULL
-Northeastern University,43.0107,Criminal Justice,Wholesale Trade,NULL,NULL,1.40%,NULL
+Northeastern University,43.0107,Criminal Justice,Public Administration,NULL,NULL,0.29,NULL
+Northeastern University,43.0107,Criminal Justice,Other Services (except Public Administration),NULL,NULL,0.13,NULL
+Northeastern University,43.0107,Criminal Justice,Educational Services,NULL,NULL,0.13,NULL
+Northeastern University,43.0107,Criminal Justice,Finance and Insurance,NULL,NULL,0.11,NULL
+Northeastern University,43.0107,Criminal Justice,"Professional, Scientific, and Technical Services",NULL,NULL,0.11,NULL
+Northeastern University,43.0107,Criminal Justice,Health Care and Social Assistance,NULL,NULL,0.10,NULL
+Northeastern University,43.0107,Criminal Justice,Retail Trade,NULL,NULL,0.04,NULL
+Northeastern University,43.0107,Criminal Justice,Accommodation and Food Services,NULL,NULL,0.03,NULL
+Northeastern University,43.0107,Criminal Justice,Management of Companies and Enterprises,NULL,NULL,0.03,NULL
+Northeastern University,43.0107,Criminal Justice,Information,NULL,NULL,0.01,NULL
+Northeastern University,43.0107,Criminal Justice,Real Estate and Rental and Leasing,NULL,NULL,0.01,NULL
+Northeastern University,43.0107,Criminal Justice,Wholesale Trade,NULL,NULL,0.01,NULL
 The Ohio State University,12.0509,Culinary Science,NULL,NULL,NULL,0.000,NULL
-Northeastern University,45.0204,Cultural Anthropology,"Arts, Entertainment, and Recreation",NULL,NULL,26.70%,NULL
-Northeastern University,45.0204,Cultural Anthropology,Educational Services,NULL,NULL,20.00%,NULL
-Northeastern University,45.0204,Cultural Anthropology,Retail Trade,NULL,NULL,20.00%,NULL
-Northeastern University,45.0204,Cultural Anthropology,Finance and Insurance,NULL,NULL,6.70%,NULL
-Northeastern University,45.0204,Cultural Anthropology,Accommodation and Food Services,NULL,NULL,6.70%,NULL
-Northeastern University,45.0204,Cultural Anthropology,Health Care and Social Assistance,NULL,NULL,6.70%,NULL
-Northeastern University,45.0204,Cultural Anthropology,Other Services (except Public Administration),NULL,NULL,6.70%,NULL
-Northeastern University,45.0204,Cultural Anthropology,"Professional, Scientific, and Technical Services",NULL,NULL,6.70%,NULL
-Georgia Institute of Technology,NULL,Cybersecurity,NULL,NULL,NULL,88.5%,NULL
-Northeastern University,NULL,Design,"Arts, Entertainment, and Recreation",NULL,NULL,23.30%,NULL
-Northeastern University,NULL,Design,"Professional, Scientific, and Technical Services",NULL,NULL,20.50%,NULL
-Northeastern University,NULL,Design,Educational Services,NULL,NULL,9.60%,NULL
-Northeastern University,NULL,Design,Retail Trade,NULL,NULL,8.20%,NULL
-Northeastern University,NULL,Design,Accommodation and Food Services,NULL,NULL,6.80%,NULL
-Northeastern University,NULL,Design,Information,NULL,NULL,5.50%,NULL
-Northeastern University,NULL,Design,Health Care and Social Assistance,NULL,NULL,5.50%,NULL
-Northeastern University,NULL,Design,Other Services (except Public Administration),NULL,NULL,5.50%,NULL
-Northeastern University,NULL,Design,Finance and Insurance,NULL,NULL,2.70%,NULL
-Northeastern University,NULL,Design,Public Administration,NULL,NULL,2.70%,NULL
-Northeastern University,NULL,Design,Management of Companies and Enterprises,NULL,NULL,1.40%,NULL
-Northeastern University,NULL,Design,Real Estate and Rental and Leasing,NULL,NULL,1.40%,NULL
-Georgia Institute of Technology,40.0401,Earth & Atmospheric Sciences,NULL,NULL,NULL,68.8%,NULL
+Northeastern University,45.0204,Cultural Anthropology,"Arts, Entertainment, and Recreation",NULL,NULL,0.27,NULL
+Northeastern University,45.0204,Cultural Anthropology,Educational Services,NULL,NULL,0.20,NULL
+Northeastern University,45.0204,Cultural Anthropology,Retail Trade,NULL,NULL,0.20,NULL
+Northeastern University,45.0204,Cultural Anthropology,Finance and Insurance,NULL,NULL,0.07,NULL
+Northeastern University,45.0204,Cultural Anthropology,Accommodation and Food Services,NULL,NULL,0.07,NULL
+Northeastern University,45.0204,Cultural Anthropology,Health Care and Social Assistance,NULL,NULL,0.07,NULL
+Northeastern University,45.0204,Cultural Anthropology,Other Services (except Public Administration),NULL,NULL,0.07,NULL
+Northeastern University,45.0204,Cultural Anthropology,"Professional, Scientific, and Technical Services",NULL,NULL,0.07,NULL
+Georgia Institute of Technology,NULL,Cybersecurity,NULL,NULL,NULL,0.89,NULL
+Northeastern University,NULL,Design,"Arts, Entertainment, and Recreation",NULL,NULL,0.23,NULL
+Northeastern University,NULL,Design,"Professional, Scientific, and Technical Services",NULL,NULL,0.21,NULL
+Northeastern University,NULL,Design,Educational Services,NULL,NULL,0.10,NULL
+Northeastern University,NULL,Design,Retail Trade,NULL,NULL,0.08,NULL
+Northeastern University,NULL,Design,Accommodation and Food Services,NULL,NULL,0.07,NULL
+Northeastern University,NULL,Design,Information,NULL,NULL,0.06,NULL
+Northeastern University,NULL,Design,Health Care and Social Assistance,NULL,NULL,0.06,NULL
+Northeastern University,NULL,Design,Other Services (except Public Administration),NULL,NULL,0.06,NULL
+Northeastern University,NULL,Design,Finance and Insurance,NULL,NULL,0.03,NULL
+Northeastern University,NULL,Design,Public Administration,NULL,NULL,0.03,NULL
+Northeastern University,NULL,Design,Management of Companies and Enterprises,NULL,NULL,0.01,NULL
+Northeastern University,NULL,Design,Real Estate and Rental and Leasing,NULL,NULL,0.01,NULL
+Georgia Institute of Technology,40.0401,Earth & Atmospheric Sciences,NULL,NULL,NULL,0.69,NULL
 Yale University,5.0104,East Asian Languages and Literatures,Teaching/Curriculum Development,NULL,NULL,66.67,NULL
 Yale University,5.0104,East Asian Languages and Literatures,"Entertainment (Film/TV, Theatre, Music)",NULL,NULL,33.33,NULL
 Haverford College,5.0104,East Asian Studies,Education,Success Academy Charter Schools,Associate Program Manager,0.000,NULL
@@ -1272,18 +1272,18 @@ Davidson College,45.0601,Economics,"Consulting, Management, Sales, HR & General 
 Haverford College,45.0601,Economics,Consulting,Economist Incorporated,Research Associate,0.000,NULL
 Davidson College,45.0601,Economics,"Banking, Finance, Real Estate & Insurance","Jefferies, LLC",Sales & Trading,0.000,NULL
 Haverford College,45.0601,Economics,Sports,FC Bayern Munich,Unknown,0.000,NULL
-Northeastern University,45.0601,Economics,"Professional, Scientific, and Technical Services",NULL,NULL,24.70%,NULL
-Northeastern University,45.0601,Economics,Finance and Insurance,NULL,NULL,22.60%,NULL
-Northeastern University,45.0601,Economics,Management of Companies and Enterprises,NULL,NULL,9.10%,NULL
-Northeastern University,45.0601,Economics,Health Care and Social Assistance,NULL,NULL,7.00%,NULL
-Northeastern University,45.0601,Economics,Public Administration,NULL,NULL,5.90%,NULL
-Northeastern University,45.0601,Economics,Educational Services,NULL,NULL,5.40%,NULL
-Northeastern University,45.0601,Economics,Manufacturing,NULL,NULL,4.30%,NULL
-Northeastern University,45.0601,Economics,Other Services (except Public Administration),NULL,NULL,3.80%,NULL
-Northeastern University,45.0601,Economics,Retail Trade,NULL,NULL,3.20%,NULL
-Northeastern University,45.0601,Economics,"Arts, Entertainment, and Recreation",NULL,NULL,3.20%,NULL
-Northeastern University,45.0601,Economics,Real Estate and Rental and Leasing,NULL,NULL,2.70%,NULL
-Northeastern University,45.0601,Economics,Accommodation and Food Services,NULL,NULL,2.20%,NULL
+Northeastern University,45.0601,Economics,"Professional, Scientific, and Technical Services",NULL,NULL,0.25,NULL
+Northeastern University,45.0601,Economics,Finance and Insurance,NULL,NULL,0.23,NULL
+Northeastern University,45.0601,Economics,Management of Companies and Enterprises,NULL,NULL,0.09,NULL
+Northeastern University,45.0601,Economics,Health Care and Social Assistance,NULL,NULL,0.07,NULL
+Northeastern University,45.0601,Economics,Public Administration,NULL,NULL,0.06,NULL
+Northeastern University,45.0601,Economics,Educational Services,NULL,NULL,0.05,NULL
+Northeastern University,45.0601,Economics,Manufacturing,NULL,NULL,0.04,NULL
+Northeastern University,45.0601,Economics,Other Services (except Public Administration),NULL,NULL,0.04,NULL
+Northeastern University,45.0601,Economics,Retail Trade,NULL,NULL,0.03,NULL
+Northeastern University,45.0601,Economics,"Arts, Entertainment, and Recreation",NULL,NULL,0.03,NULL
+Northeastern University,45.0601,Economics,Real Estate and Rental and Leasing,NULL,NULL,0.03,NULL
+Northeastern University,45.0601,Economics,Accommodation and Food Services,NULL,NULL,0.02,NULL
 Yale University,45.0601,Economics,Finance,NULL,NULL,47.61,NULL
 Yale University,45.0601,Economics,Consulting,NULL,NULL,24.45,NULL
 Yale University,45.0601,Economics,Business Development,NULL,NULL,4.14,NULL
@@ -1315,7 +1315,7 @@ Yale University,45.0601,Economics,Advertising/Public Relations,NULL,NULL,0.13,NU
 Yale University,45.0601,Economics,Military Operations,NULL,NULL,0.13,NULL
 Yale University,45.0601,Economics,Sustainability/Social Responsibility,NULL,NULL,0.13,NULL
 Yale University,45.0601,Economics,"Visual Arts (Graphic Design, Painting, Photography, Sculpture)",NULL,NULL,0.13,NULL
-Georgia Institute of Technology,NULL,Economics and International Affairs,NULL,NULL,NULL,65.3%,NULL
+Georgia Institute of Technology,NULL,Economics and International Affairs,NULL,NULL,NULL,0.65,NULL
 Yale University,45.0601,Economics and Mathematics,Finance,NULL,NULL,49.28,NULL
 Yale University,45.0601,Economics and Mathematics,Consulting,NULL,NULL,23.19,NULL
 Yale University,45.0601,Economics and Mathematics,"Research (Policy, Academic, Literary)",NULL,NULL,14.49,NULL
@@ -1326,19 +1326,19 @@ Yale University,45.0601,Economics and Mathematics,Engineering,NULL,NULL,1.45,NUL
 Yale University,45.0601,Economics and Mathematics,Military Operations,NULL,NULL,1.45,NULL
 Yale University,45.0601,Economics and Mathematics,Programming/Software Development,NULL,NULL,1.45,NULL
 Yale University,45.0601,Economics and Mathematics,Project Management,NULL,NULL,1.45,NULL
-Georgia Institute of Technology,14.1001,Electrical Engineering,NULL,NULL,NULL,33.3%,NULL
-Northeastern University,14.1001,Electrical Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,49.20%,NULL
-Northeastern University,14.1001,Electrical Engineering,Manufacturing,NULL,NULL,17.20%,NULL
-Northeastern University,14.1001,Electrical Engineering,Health Care and Social Assistance,NULL,NULL,9.00%,NULL
-Northeastern University,14.1001,Electrical Engineering,Utilities,NULL,NULL,4.90%,NULL
-Northeastern University,14.1001,Electrical Engineering,Other Services (except Public Administration),NULL,NULL,3.30%,NULL
-Northeastern University,14.1001,Electrical Engineering,Transportation and Warehousing,NULL,NULL,3.30%,NULL
-Northeastern University,14.1001,Electrical Engineering,Public Administration,NULL,NULL,2.50%,NULL
-Northeastern University,14.1001,Electrical Engineering,Management of Companies and Enterprises,NULL,NULL,2.50%,NULL
-Northeastern University,14.1001,Electrical Engineering,Educational Services,NULL,NULL,2.50%,NULL
-Northeastern University,14.1001,Electrical Engineering,Finance and Insurance,NULL,NULL,1.60%,NULL
-Northeastern University,14.1001,Electrical Engineering,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,1.60%,NULL
-Northeastern University,14.1001,Electrical Engineering,Accommodation and Food Services,NULL,NULL,0.80%,NULL
+Georgia Institute of Technology,14.1001,Electrical Engineering,NULL,NULL,NULL,0.33,NULL
+Northeastern University,14.1001,Electrical Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,0.49,NULL
+Northeastern University,14.1001,Electrical Engineering,Manufacturing,NULL,NULL,0.17,NULL
+Northeastern University,14.1001,Electrical Engineering,Health Care and Social Assistance,NULL,NULL,0.09,NULL
+Northeastern University,14.1001,Electrical Engineering,Utilities,NULL,NULL,0.05,NULL
+Northeastern University,14.1001,Electrical Engineering,Other Services (except Public Administration),NULL,NULL,0.03,NULL
+Northeastern University,14.1001,Electrical Engineering,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,14.1001,Electrical Engineering,Public Administration,NULL,NULL,0.03,NULL
+Northeastern University,14.1001,Electrical Engineering,Management of Companies and Enterprises,NULL,NULL,0.03,NULL
+Northeastern University,14.1001,Electrical Engineering,Educational Services,NULL,NULL,0.03,NULL
+Northeastern University,14.1001,Electrical Engineering,Finance and Insurance,NULL,NULL,0.02,NULL
+Northeastern University,14.1001,Electrical Engineering,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,0.02,NULL
+Northeastern University,14.1001,Electrical Engineering,Accommodation and Food Services,NULL,NULL,0.01,NULL
 Yale University,14.1001,Electrical Engineering,Engineering,NULL,NULL,60.87,NULL
 Yale University,14.1001,Electrical Engineering,Finance,NULL,NULL,13.04,NULL
 Yale University,14.1001,Electrical Engineering,Consulting,NULL,NULL,8.70,NULL
@@ -1424,18 +1424,18 @@ Davidson College,23.0101,English,"Science, Technology, Engineering, Math & Compu
 Davidson College,23.0101,English,"Education, Social and Community Services & Nonprofits",Fulbright U.S. Student Program,Taiwan Fulbright English Teaching Assistant,0.000,NULL
 Davidson College,23.0101,English,"Education, Social and Community Services & Nonprofits",City Year,Teacher,0.000,NULL
 Davidson College,23.0101,English,"Education, Social and Community Services & Nonprofits",New York University Stern School of Business,Team Assistant,0.000,NULL
-Northeastern University,23.0101,English,Educational Services,NULL,NULL,26.90%,NULL
-Northeastern University,23.0101,English,Other Services (except Public Administration),NULL,NULL,11.90%,NULL
-Northeastern University,23.0101,English,"Professional, Scientific, and Technical Services",NULL,NULL,11.90%,NULL
-Northeastern University,23.0101,English,Finance and Insurance,NULL,NULL,9.00%,NULL
-Northeastern University,23.0101,English,Public Administration,NULL,NULL,7.50%,NULL
-Northeastern University,23.0101,English,"Arts, Entertainment, and Recreation",NULL,NULL,7.50%,NULL
-Northeastern University,23.0101,English,Accommodation and Food Services,NULL,NULL,6.00%,NULL
-Northeastern University,23.0101,English,Health Care and Social Assistance,NULL,NULL,4.50%,NULL
-Northeastern University,23.0101,English,Management of Companies and Enterprises,NULL,NULL,4.50%,NULL
-Northeastern University,23.0101,English,Retail Trade,NULL,NULL,3.00%,NULL
-Northeastern University,23.0101,English,Utilities,NULL,NULL,1.50%,NULL
-Northeastern University,23.0101,English,Manufacturing,NULL,NULL,1.50%,NULL
+Northeastern University,23.0101,English,Educational Services,NULL,NULL,0.27,NULL
+Northeastern University,23.0101,English,Other Services (except Public Administration),NULL,NULL,0.12,NULL
+Northeastern University,23.0101,English,"Professional, Scientific, and Technical Services",NULL,NULL,0.12,NULL
+Northeastern University,23.0101,English,Finance and Insurance,NULL,NULL,0.09,NULL
+Northeastern University,23.0101,English,Public Administration,NULL,NULL,0.08,NULL
+Northeastern University,23.0101,English,"Arts, Entertainment, and Recreation",NULL,NULL,0.08,NULL
+Northeastern University,23.0101,English,Accommodation and Food Services,NULL,NULL,0.06,NULL
+Northeastern University,23.0101,English,Health Care and Social Assistance,NULL,NULL,0.05,NULL
+Northeastern University,23.0101,English,Management of Companies and Enterprises,NULL,NULL,0.05,NULL
+Northeastern University,23.0101,English,Retail Trade,NULL,NULL,0.03,NULL
+Northeastern University,23.0101,English,Utilities,NULL,NULL,0.02,NULL
+Northeastern University,23.0101,English,Manufacturing,NULL,NULL,0.02,NULL
 Yale University,23.0101,English,Writing/Editing,NULL,NULL,27.81,NULL
 Yale University,23.0101,English,Teaching/Curriculum Development,NULL,NULL,11.83,NULL
 Yale University,23.0101,English,Law,NULL,NULL,10.65,NULL
@@ -1500,7 +1500,7 @@ The Ohio State University,3.0204,"Environment, Economy, Devt and Sustainability"
 The Ohio State University,3.0204,"Environment, Economy, Devt and Sustainability",NULL,NULL,Tech Sales LDP,0.000,NULL
 The Ohio State University,3.0204,"Environment, Economy, Devt and Sustainability",NULL,NULL,Technology Consultant,0.000,NULL
 The Ohio State University,3.0204,"Environment, Economy, Devt and Sustainability",NULL,NULL,Transportation Administrator,0.000,NULL
-Georgia Institute of Technology,15.0507,Environmental Engineering,NULL,NULL,NULL,0.0%,NULL
+Georgia Institute of Technology,15.0507,Environmental Engineering,NULL,NULL,NULL,0.00,NULL
 Yale University,15.0507,Environmental Engineering,Engineering,NULL,NULL,28.57,NULL
 Yale University,15.0507,Environmental Engineering,Consulting,NULL,NULL,21.43,NULL
 Yale University,15.0507,Environmental Engineering,Finance,NULL,NULL,14.29,NULL
@@ -1547,16 +1547,16 @@ The Ohio State University,3.0104,Environmental Science,NULL,NULL,Seasonal Seed S
 The Ohio State University,3.0104,Environmental Science,NULL,NULL,Soil Health and Water Quality Monitoring Intern,0.000,NULL
 The Ohio State University,3.0104,Environmental Science,NULL,NULL,Training and Development/EHS Coordinator,0.000,NULL
 The Ohio State University,3.0104,Environmental Science,NULL,NULL,Vegetative Management- Utility Line Maintenance,0.000,NULL
-Northeastern University,3.0103,Environmental Studies,Educational Services,NULL,NULL,22.70%,NULL
-Northeastern University,3.0103,Environmental Studies,Health Care and Social Assistance,NULL,NULL,13.60%,NULL
-Northeastern University,3.0103,Environmental Studies,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,13.60%,NULL
-Northeastern University,3.0103,Environmental Studies,Accommodation and Food Services,NULL,NULL,9.10%,NULL
-Northeastern University,3.0103,Environmental Studies,"Arts, Entertainment, and Recreation",NULL,NULL,9.10%,NULL
-Northeastern University,3.0103,Environmental Studies,Utilities,NULL,NULL,9.10%,NULL
-Northeastern University,3.0103,Environmental Studies,"Professional, Scientific, and Technical Services",NULL,NULL,9.10%,NULL
-Northeastern University,3.0103,Environmental Studies,Management of Companies and Enterprises,NULL,NULL,4.50%,NULL
-Northeastern University,3.0103,Environmental Studies,Public Administration,NULL,NULL,4.50%,NULL
-Northeastern University,3.0103,Environmental Studies,Information,NULL,NULL,4.50%,NULL
+Northeastern University,3.0103,Environmental Studies,Educational Services,NULL,NULL,0.23,NULL
+Northeastern University,3.0103,Environmental Studies,Health Care and Social Assistance,NULL,NULL,0.14,NULL
+Northeastern University,3.0103,Environmental Studies,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,0.14,NULL
+Northeastern University,3.0103,Environmental Studies,Accommodation and Food Services,NULL,NULL,0.09,NULL
+Northeastern University,3.0103,Environmental Studies,"Arts, Entertainment, and Recreation",NULL,NULL,0.09,NULL
+Northeastern University,3.0103,Environmental Studies,Utilities,NULL,NULL,0.09,NULL
+Northeastern University,3.0103,Environmental Studies,"Professional, Scientific, and Technical Services",NULL,NULL,0.09,NULL
+Northeastern University,3.0103,Environmental Studies,Management of Companies and Enterprises,NULL,NULL,0.05,NULL
+Northeastern University,3.0103,Environmental Studies,Public Administration,NULL,NULL,0.05,NULL
+Northeastern University,3.0103,Environmental Studies,Information,NULL,NULL,0.05,NULL
 Haverford College,3.0103,Environmental Studies,Human and Community Services,AmeriCorps * NCCC ( National Civilian Community Corps ),AmeriCorps CivicSpark Green Building Fellow,0.000,NULL
 Davidson College,3.0103,Environmental Studies,"Education, Social and Community Services & Nonprofits",Ramah in the Rockies,Assistant Director,0.000,NULL
 Davidson College,3.0103,Environmental Studies,"Education, Social and Community Services & Nonprofits",Union County Public Schools,College advisor,0.000,21-1012
@@ -1750,51 +1750,51 @@ Yale University,30.2001,Global Affairs,Engineering,NULL,NULL,0.53,NULL
 Yale University,30.2001,Global Affairs,IT Technical Support,NULL,NULL,0.53,NULL
 Yale University,30.2001,Global Affairs,Professional Athlete,NULL,NULL,0.53,NULL
 Yale University,30.2001,Global Affairs,"Visual Arts (Graphic Design, Painting, Photography, Sculpture)",NULL,NULL,0.53,NULL
-Georgia Institute of Technology,NULL,Global Economics and Modern Language,NULL,NULL,NULL,70.0%,NULL
-Northeastern University,50.0409,Graphic Design,"Professional, Scientific, and Technical Services",NULL,NULL,38.50%,NULL
-Northeastern University,50.0409,Graphic Design,Accommodation and Food Services,NULL,NULL,15.40%,NULL
-Northeastern University,50.0409,Graphic Design,Retail Trade,NULL,NULL,11.50%,NULL
-Northeastern University,50.0409,Graphic Design,Other Services (except Public Administration),NULL,NULL,7.70%,NULL
-Northeastern University,50.0409,Graphic Design,Public Administration,NULL,NULL,3.80%,NULL
-Northeastern University,50.0409,Graphic Design,Manufacturing,NULL,NULL,3.80%,NULL
-Northeastern University,50.0409,Graphic Design,Educational Services,NULL,NULL,3.80%,NULL
-Northeastern University,50.0409,Graphic Design,Information,NULL,NULL,3.80%,NULL
-Northeastern University,50.0409,Graphic Design,Management of Companies and Enterprises,NULL,NULL,3.80%,NULL
-Northeastern University,50.0409,Graphic Design,"Arts, Entertainment, and Recreation",NULL,NULL,3.80%,NULL
-Northeastern University,50.0409,Graphic Design,Construction,NULL,NULL,3.80%,NULL
+Georgia Institute of Technology,NULL,Global Economics and Modern Language,NULL,NULL,NULL,0.70,NULL
+Northeastern University,50.0409,Graphic Design,"Professional, Scientific, and Technical Services",NULL,NULL,0.39,NULL
+Northeastern University,50.0409,Graphic Design,Accommodation and Food Services,NULL,NULL,0.15,NULL
+Northeastern University,50.0409,Graphic Design,Retail Trade,NULL,NULL,0.12,NULL
+Northeastern University,50.0409,Graphic Design,Other Services (except Public Administration),NULL,NULL,0.08,NULL
+Northeastern University,50.0409,Graphic Design,Public Administration,NULL,NULL,0.04,NULL
+Northeastern University,50.0409,Graphic Design,Manufacturing,NULL,NULL,0.04,NULL
+Northeastern University,50.0409,Graphic Design,Educational Services,NULL,NULL,0.04,NULL
+Northeastern University,50.0409,Graphic Design,Information,NULL,NULL,0.04,NULL
+Northeastern University,50.0409,Graphic Design,Management of Companies and Enterprises,NULL,NULL,0.04,NULL
+Northeastern University,50.0409,Graphic Design,"Arts, Entertainment, and Recreation",NULL,NULL,0.04,NULL
+Northeastern University,50.0409,Graphic Design,Construction,NULL,NULL,0.04,NULL
 Haverford College,NULL,Growth & Str of Cities,Government/Policy,Cook Inlet Housing Authority/Alaska Fellows Program,Housing and Homelessness Initiatives Fellow,0.000,NULL
 Haverford College,NULL,Growth & Str of Cities,Law,"Bremer Law & Associates, LLC",Immigration Paralegal,0.000,23-2011
 Haverford College,NULL,Growth & Str of Cities,Government/Policy,CalTrans,Transportation Planner,0.000,NULL
 Haverford College,NULL,Growth & Str of Cities,Human and Community Services,AmeriCorps * VISTA (Volunteer In Service To America),VISTA Fellow,0.000,NULL
-Northeastern University,NULL,Health Science,Health Care and Social Assistance,NULL,NULL,62.90%,NULL
-Northeastern University,NULL,Health Science,Educational Services,NULL,NULL,16.10%,NULL
-Northeastern University,NULL,Health Science,"Professional, Scientific, and Technical Services",NULL,NULL,7.00%,NULL
-Northeastern University,NULL,Health Science,Management of Companies and Enterprises,NULL,NULL,3.50%,NULL
-Northeastern University,NULL,Health Science,Other Services (except Public Administration),NULL,NULL,2.10%,NULL
-Northeastern University,NULL,Health Science,Finance and Insurance,NULL,NULL,1.40%,NULL
-Northeastern University,NULL,Health Science,Retail Trade,NULL,NULL,1.40%,NULL
-Northeastern University,NULL,Health Science,Transportation and Warehousing,NULL,NULL,1.40%,NULL
-Northeastern University,NULL,Health Science,Public Administration,NULL,NULL,7.00%,NULL
-Northeastern University,NULL,Health Science,"Arts, Entertainment, and Recreation",NULL,NULL,7.00%,NULL
-Northeastern University,NULL,Health Science,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,7.00%,NULL
-Northeastern University,NULL,Health Science,Manufacturing,NULL,NULL,7.00%,NULL
-Georgia Institute of Technology,NULL,Health Systems,NULL,NULL,NULL,75.0%,NULL
+Northeastern University,NULL,Health Science,Health Care and Social Assistance,NULL,NULL,0.63,NULL
+Northeastern University,NULL,Health Science,Educational Services,NULL,NULL,0.16,NULL
+Northeastern University,NULL,Health Science,"Professional, Scientific, and Technical Services",NULL,NULL,0.07,NULL
+Northeastern University,NULL,Health Science,Management of Companies and Enterprises,NULL,NULL,0.04,NULL
+Northeastern University,NULL,Health Science,Other Services (except Public Administration),NULL,NULL,0.02,NULL
+Northeastern University,NULL,Health Science,Finance and Insurance,NULL,NULL,0.01,NULL
+Northeastern University,NULL,Health Science,Retail Trade,NULL,NULL,0.01,NULL
+Northeastern University,NULL,Health Science,Transportation and Warehousing,NULL,NULL,0.01,NULL
+Northeastern University,NULL,Health Science,Public Administration,NULL,NULL,0.07,NULL
+Northeastern University,NULL,Health Science,"Arts, Entertainment, and Recreation",NULL,NULL,0.07,NULL
+Northeastern University,NULL,Health Science,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,0.07,NULL
+Northeastern University,NULL,Health Science,Manufacturing,NULL,NULL,0.07,NULL
+Georgia Institute of Technology,NULL,Health Systems,NULL,NULL,NULL,0.75,NULL
 Davidson College,NULL,Hispanic Studies,"Healthcare, Medicine & Medical Research",UNC Medical School,Assistant researcher,0.000,NULL
 Davidson College,NULL,Hispanic Studies,"Healthcare, Medicine & Medical Research",Beacon Health Options,IT Support Specialist,0.000,NULL
 Davidson College,NULL,Hispanic Studies,"Education, Social and Community Services & Nonprofits",Charlotte-Mecklenburg Schools (NC),K-6 Teacher,0.000,25-2021
 Davidson College,NULL,Hispanic Studies,"Science, Technology, Engineering, Math & Computer Science",Asurion,Software Engineer,0.000,15-1252
 Davidson College,NULL,Hispanic Studies,"Education, Social and Community Services & Nonprofits",Fulbright Association,Teacher/researcher,0.000,NULL
-Northeastern University,54.0101,History,Educational Services,NULL,NULL,26.80%,NULL
-Northeastern University,54.0101,History,Public Administration,NULL,NULL,24.40%,NULL
-Northeastern University,54.0101,History,"Professional, Scientific, and Technical Services",NULL,NULL,9.80%,NULL
-Northeastern University,54.0101,History,Finance and Insurance,NULL,NULL,9.80%,NULL
-Northeastern University,54.0101,History,Health Care and Social Assistance,NULL,NULL,7.30%,NULL
-Northeastern University,54.0101,History,Real Estate and Rental and Leasing,NULL,NULL,4.90%,NULL
-Northeastern University,54.0101,History,Other Services (except Public Administration),NULL,NULL,4.90%,NULL
-Northeastern University,54.0101,History,Management of Companies and Enterprises,NULL,NULL,4.90%,NULL
-Northeastern University,54.0101,History,"Arts, Entertainment, and Recreation",NULL,NULL,2.40%,NULL
-Northeastern University,54.0101,History,Retail Trade,NULL,NULL,2.40%,NULL
-Northeastern University,54.0101,History,Accommodation and Food Services,NULL,NULL,2.40%,NULL
+Northeastern University,54.0101,History,Educational Services,NULL,NULL,0.27,NULL
+Northeastern University,54.0101,History,Public Administration,NULL,NULL,0.24,NULL
+Northeastern University,54.0101,History,"Professional, Scientific, and Technical Services",NULL,NULL,0.10,NULL
+Northeastern University,54.0101,History,Finance and Insurance,NULL,NULL,0.10,NULL
+Northeastern University,54.0101,History,Health Care and Social Assistance,NULL,NULL,0.07,NULL
+Northeastern University,54.0101,History,Real Estate and Rental and Leasing,NULL,NULL,0.05,NULL
+Northeastern University,54.0101,History,Other Services (except Public Administration),NULL,NULL,0.05,NULL
+Northeastern University,54.0101,History,Management of Companies and Enterprises,NULL,NULL,0.05,NULL
+Northeastern University,54.0101,History,"Arts, Entertainment, and Recreation",NULL,NULL,0.02,NULL
+Northeastern University,54.0101,History,Retail Trade,NULL,NULL,0.02,NULL
+Northeastern University,54.0101,History,Accommodation and Food Services,NULL,NULL,0.02,NULL
 Haverford College,54.0101,History,Education,Pennsylvania Academy of the Fine Arts (PAFA),Admissions Counselor,0.000,NULL
 Haverford College,54.0101,History,Education,City Year,AmeriCorps Member,0.000,NULL
 Davidson College,54.0101,History,"Education, Social and Community Services & Nonprofits",Academy Prep Centers for Education,"AmeriCorps Specialist Teacher, Boys‚Äô PE",0.000,NULL
@@ -1896,20 +1896,20 @@ Yale University,NULL,"History of Science, Medicine, and Public Health",Data Scie
 Yale University,NULL,"History of Science, Medicine, and Public Health",Operations,NULL,NULL,1.19,NULL
 Yale University,NULL,"History of Science, Medicine, and Public Health",Outdoor Education,NULL,NULL,1.19,NULL
 Yale University,NULL,"History of Science, Medicine, and Public Health","Performance (Acting, Dance, Music)",NULL,NULL,1.19,NULL
-Georgia Institute of Technology,NULL,"History, Technology, and Society",NULL,NULL,NULL,100.0%,NULL
-Northeastern University,44.0000,Human Services,Health Care and Social Assistance,NULL,NULL,26.80%,NULL
-Northeastern University,44.0000,Human Services,Educational Services,NULL,NULL,23.20%,NULL
-Northeastern University,44.0000,Human Services,Other Services (except Public Administration),NULL,NULL,12.50%,NULL
-Northeastern University,44.0000,Human Services,"Professional, Scientific, and Technical Services",NULL,NULL,7.10%,NULL
-Northeastern University,44.0000,Human Services,"Arts, Entertainment, and Recreation",NULL,NULL,5.40%,NULL
-Northeastern University,44.0000,Human Services,Transportation and Warehousing,NULL,NULL,3.60%,NULL
-Northeastern University,44.0000,Human Services,Information,NULL,NULL,3.60%,NULL
-Northeastern University,44.0000,Human Services,Finance and Insurance,NULL,NULL,3.60%,NULL
-Northeastern University,44.0000,Human Services,Accommodation and Food Services,NULL,NULL,3.60%,NULL
-Northeastern University,44.0000,Human Services,Management of Companies and Enterprises,NULL,NULL,1.80%,NULL
-Northeastern University,44.0000,Human Services,Real Estate and Rental and Leasing,NULL,NULL,1.80%,NULL
-Northeastern University,44.0000,Human Services,Retail Trade,NULL,NULL,1.80%,NULL
-Georgia Institute of Technology,30.3101,Human-Computer Interaction,NULL,NULL,NULL,100.0%,NULL
+Georgia Institute of Technology,NULL,"History, Technology, and Society",NULL,NULL,NULL,1.00,NULL
+Northeastern University,44.0000,Human Services,Health Care and Social Assistance,NULL,NULL,0.27,NULL
+Northeastern University,44.0000,Human Services,Educational Services,NULL,NULL,0.23,NULL
+Northeastern University,44.0000,Human Services,Other Services (except Public Administration),NULL,NULL,0.13,NULL
+Northeastern University,44.0000,Human Services,"Professional, Scientific, and Technical Services",NULL,NULL,0.07,NULL
+Northeastern University,44.0000,Human Services,"Arts, Entertainment, and Recreation",NULL,NULL,0.05,NULL
+Northeastern University,44.0000,Human Services,Transportation and Warehousing,NULL,NULL,0.04,NULL
+Northeastern University,44.0000,Human Services,Information,NULL,NULL,0.04,NULL
+Northeastern University,44.0000,Human Services,Finance and Insurance,NULL,NULL,0.04,NULL
+Northeastern University,44.0000,Human Services,Accommodation and Food Services,NULL,NULL,0.04,NULL
+Northeastern University,44.0000,Human Services,Management of Companies and Enterprises,NULL,NULL,0.02,NULL
+Northeastern University,44.0000,Human Services,Real Estate and Rental and Leasing,NULL,NULL,0.02,NULL
+Northeastern University,44.0000,Human Services,Retail Trade,NULL,NULL,0.02,NULL
+Georgia Institute of Technology,30.3101,Human-Computer Interaction,NULL,NULL,NULL,1.00,NULL
 Yale University,24.0103,Humanities,Teaching/Curriculum Development,NULL,NULL,13.51,NULL
 Yale University,24.0103,Humanities,Writing/Editing,NULL,NULL,13.51,NULL
 Yale University,24.0103,Humanities,Finance,NULL,NULL,8.11,NULL
@@ -1927,27 +1927,27 @@ Yale University,24.0103,Humanities,Outdoor Education,NULL,NULL,2.70,NULL
 Yale University,24.0103,Humanities,"Research (Policy, Academic, Literary)",NULL,NULL,2.70,NULL
 Yale University,24.0103,Humanities,Research: Laboratory,NULL,NULL,2.70,NULL
 Yale University,24.0103,Humanities,Sustainability/Social Responsibility,NULL,NULL,2.70,NULL
-Georgia Institute of Technology,50.0404,Industrial Design,NULL,NULL,NULL,50.0%,NULL
-Georgia Institute of Technology,14.3501,Industrial Engineering,NULL,NULL,NULL,100.0%,NULL
-Northeastern University,14.3501,Industrial Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,29.60%,NULL
-Northeastern University,14.3501,Industrial Engineering,Manufacturing,NULL,NULL,13.60%,NULL
-Northeastern University,14.3501,Industrial Engineering,Finance and Insurance,NULL,NULL,11.70%,NULL
-Northeastern University,14.3501,Industrial Engineering,Health Care and Social Assistance,NULL,NULL,10.50%,NULL
-Northeastern University,14.3501,Industrial Engineering,Management of Companies and Enterprises,NULL,NULL,6.20%,NULL
-Northeastern University,14.3501,Industrial Engineering,Retail Trade,NULL,NULL,5.60%,NULL
-Northeastern University,14.3501,Industrial Engineering,Utilities,NULL,NULL,4.90%,NULL
-Northeastern University,14.3501,Industrial Engineering,Transportation and Warehousing,NULL,NULL,3.10%,NULL
-Northeastern University,14.3501,Industrial Engineering,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,3.10%,NULL
-Northeastern University,14.3501,Industrial Engineering,Construction,NULL,NULL,2.50%,NULL
-Northeastern University,14.3501,Industrial Engineering,Wholesale Trade,NULL,NULL,2.50%,NULL
-Northeastern University,14.3501,Industrial Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,1.90%,NULL
-Northeastern University,11.0101,Information Science,"Professional, Scientific, and Technical Services",NULL,NULL,50.00%,NULL
-Northeastern University,11.0101,Information Science,Health Care and Social Assistance,NULL,NULL,14.50%,NULL
-Northeastern University,11.0101,Information Science,Management of Companies and Enterprises,NULL,NULL,7.10%,NULL
-Northeastern University,11.0101,Information Science,Finance and Insurance,NULL,NULL,7.10%,NULL
-Northeastern University,11.0101,Information Science,Information,NULL,NULL,7.10%,NULL
-Northeastern University,11.0101,Information Science,Transportation and Warehousing,NULL,NULL,7.10%,NULL
-Northeastern University,11.0101,Information Science,Accommodation and Food Services,NULL,NULL,7.10%,NULL
+Georgia Institute of Technology,50.0404,Industrial Design,NULL,NULL,NULL,0.50,NULL
+Georgia Institute of Technology,14.3501,Industrial Engineering,NULL,NULL,NULL,1.00,NULL
+Northeastern University,14.3501,Industrial Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,0.30,NULL
+Northeastern University,14.3501,Industrial Engineering,Manufacturing,NULL,NULL,0.14,NULL
+Northeastern University,14.3501,Industrial Engineering,Finance and Insurance,NULL,NULL,0.12,NULL
+Northeastern University,14.3501,Industrial Engineering,Health Care and Social Assistance,NULL,NULL,0.11,NULL
+Northeastern University,14.3501,Industrial Engineering,Management of Companies and Enterprises,NULL,NULL,0.06,NULL
+Northeastern University,14.3501,Industrial Engineering,Retail Trade,NULL,NULL,0.06,NULL
+Northeastern University,14.3501,Industrial Engineering,Utilities,NULL,NULL,0.05,NULL
+Northeastern University,14.3501,Industrial Engineering,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,14.3501,Industrial Engineering,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,0.03,NULL
+Northeastern University,14.3501,Industrial Engineering,Construction,NULL,NULL,0.03,NULL
+Northeastern University,14.3501,Industrial Engineering,Wholesale Trade,NULL,NULL,0.03,NULL
+Northeastern University,14.3501,Industrial Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,0.02,NULL
+Northeastern University,11.0101,Information Science,"Professional, Scientific, and Technical Services",NULL,NULL,0.50,NULL
+Northeastern University,11.0101,Information Science,Health Care and Social Assistance,NULL,NULL,0.15,NULL
+Northeastern University,11.0101,Information Science,Management of Companies and Enterprises,NULL,NULL,0.07,NULL
+Northeastern University,11.0101,Information Science,Finance and Insurance,NULL,NULL,0.07,NULL
+Northeastern University,11.0101,Information Science,Information,NULL,NULL,0.07,NULL
+Northeastern University,11.0101,Information Science,Transportation and Warehousing,NULL,NULL,0.07,NULL
+Northeastern University,11.0101,Information Science,Accommodation and Food Services,NULL,NULL,0.07,NULL
 Davidson College,30.0000,Interdisciplinary Studies,"Arts, Entertainment, Communication & Marketing",The Mx Group,Account Coordinator,0.000,13-2011
 Davidson College,30.0000,Interdisciplinary Studies,"Science, Technology, Engineering, Math & Computer Science",Amazon,Area Manager,0.000,11-3021
 Davidson College,30.0000,Interdisciplinary Studies,"Healthcare, Medicine & Medical Research",National Institutes of Health,Clinical Research Coordinator,0.000,19-1032
@@ -1966,50 +1966,50 @@ Davidson College,30.0000,Interdisciplinary Studies,"Healthcare, Medicine & Medic
 Davidson College,30.0000,Interdisciplinary Studies,"Arts, Entertainment, Communication & Marketing",Red Ventures,Strategic Analyst,0.000,NULL
 Davidson College,30.0000,Interdisciplinary Studies,"Healthcare, Medicine & Medical Research",NIMH,Student Intramural Research and Training Award (IRTA),0.000,NULL
 Davidson College,30.0000,Interdisciplinary Studies,"Education, Social and Community Services & Nonprofits",Teach For America,Teacher,0.000,NULL
-Georgia Institute of Technology,45.0901,International Affairs,NULL,NULL,NULL,38.9%,NULL
-Georgia Institute of Technology,45.0901,International Affairs,NULL,NULL,NULL,33.3%,NULL
-Northeastern University,45.0901,International Affairs,"Professional, Scientific, and Technical Services",NULL,NULL,24.10%,NULL
-Northeastern University,45.0901,International Affairs,Educational Services,NULL,NULL,15.50%,NULL
-Northeastern University,45.0901,International Affairs,"Arts, Entertainment, and Recreation",NULL,NULL,10.30%,NULL
-Northeastern University,45.0901,International Affairs,Health Care and Social Assistance,NULL,NULL,8.00%,NULL
-Northeastern University,45.0901,International Affairs,Public Administration,NULL,NULL,7.50%,NULL
-Northeastern University,45.0901,International Affairs,Finance and Insurance,NULL,NULL,6.90%,NULL
-Northeastern University,45.0901,International Affairs,Management of Companies and Enterprises,NULL,NULL,6.30%,NULL
-Northeastern University,45.0901,International Affairs,Other Services (except Public Administration),NULL,NULL,5.20%,NULL
-Northeastern University,45.0901,International Affairs,Retail Trade,NULL,NULL,3.40%,NULL
-Northeastern University,45.0901,International Affairs,Transportation and Warehousing,NULL,NULL,2.90%,NULL
-Northeastern University,45.0901,International Affairs,Accommodation and Food Services,NULL,NULL,2.90%,NULL
-Northeastern University,45.0901,International Affairs,Real Estate and Rental and Leasing,NULL,NULL,1.70%,NULL
-Northeastern University,52.1101,International Business,"Professional, Scientific, and Technical Services",NULL,NULL,27.80%,NULL
-Northeastern University,52.1101,International Business,Finance and Insurance,NULL,NULL,26.20%,NULL
-Northeastern University,52.1101,International Business,Management of Companies and Enterprises,NULL,NULL,9.30%,NULL
-Northeastern University,52.1101,International Business,Retail Trade,NULL,NULL,7.30%,NULL
-Northeastern University,52.1101,International Business,Health Care and Social Assistance,NULL,NULL,4.20%,NULL
-Northeastern University,52.1101,International Business,Educational Services,NULL,NULL,3.50%,NULL
-Northeastern University,52.1101,International Business,Manufacturing,NULL,NULL,3.50%,NULL
-Northeastern University,52.1101,International Business,Transportation and Warehousing,NULL,NULL,2.90%,NULL
-Northeastern University,52.1101,International Business,"Arts, Entertainment, and Recreation",NULL,NULL,2.60%,NULL
-Northeastern University,52.1101,International Business,Accommodation and Food Services,NULL,NULL,2.60%,NULL
-Northeastern University,52.1101,International Business,Wholesale Trade,NULL,NULL,2.60%,NULL
-Northeastern University,52.1101,International Business,Information,NULL,NULL,2.20%,NULL
+Georgia Institute of Technology,45.0901,International Affairs,NULL,NULL,NULL,0.39,NULL
+Georgia Institute of Technology,45.0901,International Affairs,NULL,NULL,NULL,0.33,NULL
+Northeastern University,45.0901,International Affairs,"Professional, Scientific, and Technical Services",NULL,NULL,0.24,NULL
+Northeastern University,45.0901,International Affairs,Educational Services,NULL,NULL,0.16,NULL
+Northeastern University,45.0901,International Affairs,"Arts, Entertainment, and Recreation",NULL,NULL,0.10,NULL
+Northeastern University,45.0901,International Affairs,Health Care and Social Assistance,NULL,NULL,0.08,NULL
+Northeastern University,45.0901,International Affairs,Public Administration,NULL,NULL,0.08,NULL
+Northeastern University,45.0901,International Affairs,Finance and Insurance,NULL,NULL,0.07,NULL
+Northeastern University,45.0901,International Affairs,Management of Companies and Enterprises,NULL,NULL,0.06,NULL
+Northeastern University,45.0901,International Affairs,Other Services (except Public Administration),NULL,NULL,0.05,NULL
+Northeastern University,45.0901,International Affairs,Retail Trade,NULL,NULL,0.03,NULL
+Northeastern University,45.0901,International Affairs,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,45.0901,International Affairs,Accommodation and Food Services,NULL,NULL,0.03,NULL
+Northeastern University,45.0901,International Affairs,Real Estate and Rental and Leasing,NULL,NULL,0.02,NULL
+Northeastern University,52.1101,International Business,"Professional, Scientific, and Technical Services",NULL,NULL,0.28,NULL
+Northeastern University,52.1101,International Business,Finance and Insurance,NULL,NULL,0.26,NULL
+Northeastern University,52.1101,International Business,Management of Companies and Enterprises,NULL,NULL,0.09,NULL
+Northeastern University,52.1101,International Business,Retail Trade,NULL,NULL,0.07,NULL
+Northeastern University,52.1101,International Business,Health Care and Social Assistance,NULL,NULL,0.04,NULL
+Northeastern University,52.1101,International Business,Educational Services,NULL,NULL,0.04,NULL
+Northeastern University,52.1101,International Business,Manufacturing,NULL,NULL,0.04,NULL
+Northeastern University,52.1101,International Business,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,52.1101,International Business,"Arts, Entertainment, and Recreation",NULL,NULL,0.03,NULL
+Northeastern University,52.1101,International Business,Accommodation and Food Services,NULL,NULL,0.03,NULL
+Northeastern University,52.1101,International Business,Wholesale Trade,NULL,NULL,0.03,NULL
+Northeastern University,52.1101,International Business,Information,NULL,NULL,0.02,NULL
 Haverford College,30.2001,International Studies,Business - Other,McMaster-Carr Supply Company,Management Trainee,0.000,NULL
 Yale University,16.0902,Italian,Finance,NULL,NULL,20.00,NULL
 Yale University,16.0902,Italian,Health Services/Healthcare,NULL,NULL,20.00,NULL
 Yale University,16.0902,Italian,Law,NULL,NULL,20.00,NULL
 Yale University,16.0902,Italian,Marketing/Product Management,NULL,NULL,20.00,NULL
 Yale University,16.0902,Italian,Teaching/Curriculum Development,NULL,NULL,20.00,NULL
-Northeastern University,9.0401,Journalism,"Arts, Entertainment, and Recreation",NULL,NULL,26.30%,NULL
-Northeastern University,9.0401,Journalism,"Professional, Scientific, and Technical Services",NULL,NULL,16.20%,NULL
-Northeastern University,9.0401,Journalism,Educational Services,NULL,NULL,13.10%,NULL
-Northeastern University,9.0401,Journalism,Other Services (except Public Administration),NULL,NULL,10.10%,NULL
-Northeastern University,9.0401,Journalism,Retail Trade,NULL,NULL,6.10%,NULL
-Northeastern University,9.0401,Journalism,Health Care and Social Assistance,NULL,NULL,6.10%,NULL
-Northeastern University,9.0401,Journalism,Management of Companies and Enterprises,NULL,NULL,6.10%,NULL
-Northeastern University,9.0401,Journalism,Public Administration,NULL,NULL,5.10%,NULL
-Northeastern University,9.0401,Journalism,Accommodation and Food Services,NULL,NULL,4.00%,NULL
-Northeastern University,9.0401,Journalism,Information,NULL,NULL,4.00%,NULL
-Northeastern University,9.0401,Journalism,Finance and Insurance,NULL,NULL,2.00%,NULL
-Northeastern University,9.0401,Journalism,Real Estate and Rental and Leasing,NULL,NULL,1.00%,NULL
+Northeastern University,9.0401,Journalism,"Arts, Entertainment, and Recreation",NULL,NULL,0.26,NULL
+Northeastern University,9.0401,Journalism,"Professional, Scientific, and Technical Services",NULL,NULL,0.16,NULL
+Northeastern University,9.0401,Journalism,Educational Services,NULL,NULL,0.13,NULL
+Northeastern University,9.0401,Journalism,Other Services (except Public Administration),NULL,NULL,0.10,NULL
+Northeastern University,9.0401,Journalism,Retail Trade,NULL,NULL,0.06,NULL
+Northeastern University,9.0401,Journalism,Health Care and Social Assistance,NULL,NULL,0.06,NULL
+Northeastern University,9.0401,Journalism,Management of Companies and Enterprises,NULL,NULL,0.06,NULL
+Northeastern University,9.0401,Journalism,Public Administration,NULL,NULL,0.05,NULL
+Northeastern University,9.0401,Journalism,Accommodation and Food Services,NULL,NULL,0.04,NULL
+Northeastern University,9.0401,Journalism,Information,NULL,NULL,0.04,NULL
+Northeastern University,9.0401,Journalism,Finance and Insurance,NULL,NULL,0.02,NULL
+Northeastern University,9.0401,Journalism,Real Estate and Rental and Leasing,NULL,NULL,0.01,NULL
 Davidson College,5.0107,Latin America Studies,"Healthcare, Medicine & Medical Research",Ada Jenkins Center,Clinic Fellow,0.000,NULL
 Davidson College,5.0107,Latin America Studies,"Education, Social and Community Services & Nonprofits",Gilman School,Penn Teaching Fellow at Gilman School,0.000,NULL
 Davidson College,5.0107,Latin America Studies,"Education, Social and Community Services & Nonprofits",Davidson College,Research Assistant - Dr. Crandall,0.000,NULL
@@ -2021,13 +2021,13 @@ Yale University,5.0107,Latin American Studies,Health Services/Healthcare,NULL,NU
 Yale University,5.0107,Latin American Studies,Ministry,NULL,NULL,8.33,NULL
 Yale University,5.0107,Latin American Studies,Office Administrative/Support Services,NULL,NULL,8.33,NULL
 Yale University,5.0107,Latin American Studies,"Research (Policy, Academic, Literary)",NULL,NULL,8.33,NULL
-Northeastern University,16.0102,Linguistics,"Professional, Scientific, and Technical Services",NULL,NULL,33.30%,NULL
-Northeastern University,16.0102,Linguistics,Educational Services,NULL,NULL,33.30%,NULL
-Northeastern University,16.0102,Linguistics,Health Care and Social Assistance,NULL,NULL,6.70%,NULL
-Northeastern University,16.0102,Linguistics,"Arts, Entertainment, and Recreation",NULL,NULL,6.70%,NULL
-Northeastern University,16.0102,Linguistics,Finance and Insurance,NULL,NULL,6.70%,NULL
-Northeastern University,16.0102,Linguistics,Real Estate and Rental and Leasing,NULL,NULL,6.70%,NULL
-Northeastern University,16.0102,Linguistics,Information,NULL,NULL,6.70%,NULL
+Northeastern University,16.0102,Linguistics,"Professional, Scientific, and Technical Services",NULL,NULL,0.33,NULL
+Northeastern University,16.0102,Linguistics,Educational Services,NULL,NULL,0.33,NULL
+Northeastern University,16.0102,Linguistics,Health Care and Social Assistance,NULL,NULL,0.07,NULL
+Northeastern University,16.0102,Linguistics,"Arts, Entertainment, and Recreation",NULL,NULL,0.07,NULL
+Northeastern University,16.0102,Linguistics,Finance and Insurance,NULL,NULL,0.07,NULL
+Northeastern University,16.0102,Linguistics,Real Estate and Rental and Leasing,NULL,NULL,0.07,NULL
+Northeastern University,16.0102,Linguistics,Information,NULL,NULL,0.07,NULL
 Haverford College,16.0102,Linguistics,Consulting,TATA Consultancy Services Ltd.,Software Engineer,0.000,15-1261
 Yale University,16.0102,Linguistics,Teaching/Curriculum Development,NULL,NULL,26.32,NULL
 Yale University,16.0102,Linguistics,Business Development,NULL,NULL,10.53,NULL
@@ -2056,28 +2056,28 @@ Yale University,NULL,"Literature, Comparative",Consulting,NULL,NULL,5.88,NULL
 Yale University,NULL,"Literature, Comparative",Finance,NULL,NULL,5.88,NULL
 Yale University,NULL,"Literature, Comparative",Law,NULL,NULL,5.88,NULL
 Yale University,NULL,"Literature, Comparative",Operations,NULL,NULL,5.88,NULL
-Georgia Institute of Technology,NULL,Management of Technology,NULL,NULL,NULL,75.0%,NULL
-Northeastern University,26.1302,Marine Biology,Educational Services,NULL,NULL,39.10%,NULL
-Northeastern University,26.1302,Marine Biology,"Professional, Scientific, and Technical Services",NULL,NULL,21.70%,NULL
-Northeastern University,26.1302,Marine Biology,Health Care and Social Assistance,NULL,NULL,8.70%,NULL
-Northeastern University,26.1302,Marine Biology,Transportation and Warehousing,NULL,NULL,4.30%,NULL
-Northeastern University,26.1302,Marine Biology,"Arts, Entertainment, and Recreation",NULL,NULL,4.30%,NULL
-Northeastern University,26.1302,Marine Biology,Other Services (except Public Administration),NULL,NULL,4.30%,NULL
-Northeastern University,26.1302,Marine Biology,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,4.30%,NULL
-Northeastern University,26.1302,Marine Biology,Public Administration,NULL,NULL,4.30%,NULL
-Northeastern University,26.1302,Marine Biology,Management of Companies and Enterprises,NULL,NULL,4.30%,NULL
-Northeastern University,27.0101,Mathematics,"Professional, Scientific, and Technical Services",NULL,NULL,21.00%,NULL
-Northeastern University,27.0101,Mathematics,Finance and Insurance,NULL,NULL,16.10%,NULL
-Northeastern University,27.0101,Mathematics,Educational Services,NULL,NULL,16.10%,NULL
-Northeastern University,27.0101,Mathematics,Other Services (except Public Administration),NULL,NULL,9.70%,NULL
-Northeastern University,27.0101,Mathematics,Health Care and Social Assistance,NULL,NULL,9.70%,NULL
-Northeastern University,27.0101,Mathematics,Management of Companies and Enterprises,NULL,NULL,6.50%,NULL
-Northeastern University,27.0101,Mathematics,Wholesale Trade,NULL,NULL,6.50%,NULL
-Northeastern University,27.0101,Mathematics,Utilities,NULL,NULL,3.20%,NULL
-Northeastern University,27.0101,Mathematics,"Arts, Entertainment, and Recreation",NULL,NULL,3.20%,NULL
-Northeastern University,27.0101,Mathematics,Manufacturing,NULL,NULL,1.60%,NULL
-Northeastern University,27.0101,Mathematics,Real Estate and Rental and Leasing,NULL,NULL,1.60%,NULL
-Northeastern University,27.0101,Mathematics,Public Administration,NULL,NULL,1.60%,NULL
+Georgia Institute of Technology,NULL,Management of Technology,NULL,NULL,NULL,0.75,NULL
+Northeastern University,26.1302,Marine Biology,Educational Services,NULL,NULL,0.39,NULL
+Northeastern University,26.1302,Marine Biology,"Professional, Scientific, and Technical Services",NULL,NULL,0.22,NULL
+Northeastern University,26.1302,Marine Biology,Health Care and Social Assistance,NULL,NULL,0.09,NULL
+Northeastern University,26.1302,Marine Biology,Transportation and Warehousing,NULL,NULL,0.04,NULL
+Northeastern University,26.1302,Marine Biology,"Arts, Entertainment, and Recreation",NULL,NULL,0.04,NULL
+Northeastern University,26.1302,Marine Biology,Other Services (except Public Administration),NULL,NULL,0.04,NULL
+Northeastern University,26.1302,Marine Biology,"Agriculture, Forestry, Fishing and Hunting",NULL,NULL,0.04,NULL
+Northeastern University,26.1302,Marine Biology,Public Administration,NULL,NULL,0.04,NULL
+Northeastern University,26.1302,Marine Biology,Management of Companies and Enterprises,NULL,NULL,0.04,NULL
+Northeastern University,27.0101,Mathematics,"Professional, Scientific, and Technical Services",NULL,NULL,0.21,NULL
+Northeastern University,27.0101,Mathematics,Finance and Insurance,NULL,NULL,0.16,NULL
+Northeastern University,27.0101,Mathematics,Educational Services,NULL,NULL,0.16,NULL
+Northeastern University,27.0101,Mathematics,Other Services (except Public Administration),NULL,NULL,0.10,NULL
+Northeastern University,27.0101,Mathematics,Health Care and Social Assistance,NULL,NULL,0.10,NULL
+Northeastern University,27.0101,Mathematics,Management of Companies and Enterprises,NULL,NULL,0.07,NULL
+Northeastern University,27.0101,Mathematics,Wholesale Trade,NULL,NULL,0.07,NULL
+Northeastern University,27.0101,Mathematics,Utilities,NULL,NULL,0.03,NULL
+Northeastern University,27.0101,Mathematics,"Arts, Entertainment, and Recreation",NULL,NULL,0.03,NULL
+Northeastern University,27.0101,Mathematics,Manufacturing,NULL,NULL,0.02,NULL
+Northeastern University,27.0101,Mathematics,Real Estate and Rental and Leasing,NULL,NULL,0.02,NULL
+Northeastern University,27.0101,Mathematics,Public Administration,NULL,NULL,0.02,NULL
 Haverford College,27.0101,Mathematics,Education,Coney Island Prep,Apprentice Teacher,0.000,NULL
 Haverford College,27.0101,Mathematics,Business - Other,"Boston Consulting Group, Inc",Associate,0.000,NULL
 Davidson College,27.0101,Mathematics,"Education, Social and Community Services & Nonprofits",Greenwich Academy,Computer Science Teaching Fellow,0.000,25-1021
@@ -2132,18 +2132,18 @@ Yale University,27.0101,Mathematics and Physics,Consulting,NULL,NULL,16.67,NULL
 Yale University,27.0101,Mathematics and Physics,Engineering,NULL,NULL,16.67,NULL
 Yale University,27.0101,Mathematics and Physics,Finance,NULL,NULL,16.67,NULL
 Yale University,27.0101,Mathematics and Physics,Writing/Editing,NULL,NULL,16.67,NULL
-Northeastern University,14.1901,Mechanical Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,36.40%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Manufacturing,NULL,NULL,21.30%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Health Care and Social Assistance,NULL,NULL,14.00%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Utilities,NULL,NULL,3.80%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Educational Services,NULL,NULL,3.40%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Management of Companies and Enterprises,NULL,NULL,3.20%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Transportation and Warehousing,NULL,NULL,2.60%,NULL
-Northeastern University,14.1901,Mechanical Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,2.30%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Construction,NULL,NULL,2.10%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Other Services (except Public Administration),NULL,NULL,1.90%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Finance and Insurance,NULL,NULL,1.90%,NULL
-Northeastern University,14.1901,Mechanical Engineering,Retail Trade,NULL,NULL,1.90%,NULL
+Northeastern University,14.1901,Mechanical Engineering,"Professional, Scientific, and Technical Services",NULL,NULL,0.36,NULL
+Northeastern University,14.1901,Mechanical Engineering,Manufacturing,NULL,NULL,0.21,NULL
+Northeastern University,14.1901,Mechanical Engineering,Health Care and Social Assistance,NULL,NULL,0.14,NULL
+Northeastern University,14.1901,Mechanical Engineering,Utilities,NULL,NULL,0.04,NULL
+Northeastern University,14.1901,Mechanical Engineering,Educational Services,NULL,NULL,0.03,NULL
+Northeastern University,14.1901,Mechanical Engineering,Management of Companies and Enterprises,NULL,NULL,0.03,NULL
+Northeastern University,14.1901,Mechanical Engineering,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,14.1901,Mechanical Engineering,"Arts, Entertainment, and Recreation",NULL,NULL,0.02,NULL
+Northeastern University,14.1901,Mechanical Engineering,Construction,NULL,NULL,0.02,NULL
+Northeastern University,14.1901,Mechanical Engineering,Other Services (except Public Administration),NULL,NULL,0.02,NULL
+Northeastern University,14.1901,Mechanical Engineering,Finance and Insurance,NULL,NULL,0.02,NULL
+Northeastern University,14.1901,Mechanical Engineering,Retail Trade,NULL,NULL,0.02,NULL
 Yale University,14.1901,Mechanical Engineering,Engineering,NULL,NULL,53.01,NULL
 Yale University,14.1901,Mechanical Engineering,Consulting,NULL,NULL,10.84,NULL
 Yale University,14.1901,Mechanical Engineering,Finance,NULL,NULL,10.84,NULL
@@ -2159,18 +2159,18 @@ Yale University,14.1901,Mechanical Engineering,Health Services/Healthcare,NULL,N
 Yale University,14.1901,Mechanical Engineering,Law,NULL,NULL,1.20,NULL
 Yale University,14.1901,Mechanical Engineering,Operations,NULL,NULL,1.20,NULL
 Yale University,14.1901,Mechanical Engineering,Sustainability/Social Responsibility,NULL,NULL,1.20,NULL
-Northeastern University,NULL,Media Arts,"Arts, Entertainment, and Recreation",NULL,NULL,28.10%,NULL
-Northeastern University,NULL,Media Arts,"Professional, Scientific, and Technical Services",NULL,NULL,15.60%,NULL
-Northeastern University,NULL,Media Arts,Educational Services,NULL,NULL,15.60%,NULL
-Northeastern University,NULL,Media Arts,Management of Companies and Enterprises,NULL,NULL,6.30%,NULL
-Northeastern University,NULL,Media Arts,Finance and Insurance,NULL,NULL,6.30%,NULL
-Northeastern University,NULL,Media Arts,Accommodation and Food Services,NULL,NULL,6.30%,NULL
-Northeastern University,NULL,Media Arts,Real Estate and Rental and Leasing,NULL,NULL,3.10%,NULL
-Northeastern University,NULL,Media Arts,Wholesale Trade,NULL,NULL,3.10%,NULL
-Northeastern University,NULL,Media Arts,Information,NULL,NULL,3.10%,NULL
-Northeastern University,NULL,Media Arts,Utilities,NULL,NULL,3.10%,NULL
-Northeastern University,NULL,Media Arts,Transportation and Warehousing,NULL,NULL,3.10%,NULL
-Northeastern University,NULL,Media Arts,Manufacturing,NULL,NULL,3.10%,NULL
+Northeastern University,NULL,Media Arts,"Arts, Entertainment, and Recreation",NULL,NULL,0.28,NULL
+Northeastern University,NULL,Media Arts,"Professional, Scientific, and Technical Services",NULL,NULL,0.16,NULL
+Northeastern University,NULL,Media Arts,Educational Services,NULL,NULL,0.16,NULL
+Northeastern University,NULL,Media Arts,Management of Companies and Enterprises,NULL,NULL,0.06,NULL
+Northeastern University,NULL,Media Arts,Finance and Insurance,NULL,NULL,0.06,NULL
+Northeastern University,NULL,Media Arts,Accommodation and Food Services,NULL,NULL,0.06,NULL
+Northeastern University,NULL,Media Arts,Real Estate and Rental and Leasing,NULL,NULL,0.03,NULL
+Northeastern University,NULL,Media Arts,Wholesale Trade,NULL,NULL,0.03,NULL
+Northeastern University,NULL,Media Arts,Information,NULL,NULL,0.03,NULL
+Northeastern University,NULL,Media Arts,Utilities,NULL,NULL,0.03,NULL
+Northeastern University,NULL,Media Arts,Transportation and Warehousing,NULL,NULL,0.03,NULL
+Northeastern University,NULL,Media Arts,Manufacturing,NULL,NULL,0.03,NULL
 Yale University,5.0108,Modern Middle East Studies,"Research (Policy, Academic, Literary)",NULL,NULL,25.00,NULL
 Yale University,5.0108,Modern Middle East Studies,Sustainability/Social Responsibility,NULL,NULL,25.00,NULL
 Yale University,5.0108,Modern Middle East Studies,Teaching/Curriculum Development,NULL,NULL,25.00,NULL
@@ -2208,19 +2208,19 @@ Yale University,26.0210,"Molecular, Cellular, and Developmental Biology","Entert
 Yale University,26.0210,"Molecular, Cellular, and Developmental Biology",Law,NULL,NULL,0.39,NULL
 Yale University,26.0210,"Molecular, Cellular, and Developmental Biology",Military Operations,NULL,NULL,0.39,NULL
 Yale University,26.0210,"Molecular, Cellular, and Developmental Biology",Sustainability/Social Responsibility,NULL,NULL,0.39,NULL
-Georgia Institute of Technology,NULL,MS Architecture,NULL,NULL,NULL,83.7%,NULL
-Northeastern University,50.0901,Music,"Arts, Entertainment, and Recreation",NULL,NULL,42.60%,NULL
-Northeastern University,50.0901,Music,Educational Services,NULL,NULL,18.10%,NULL
-Northeastern University,50.0901,Music,"Professional, Scientific, and Technical Services",NULL,NULL,8.50%,NULL
-Northeastern University,50.0901,Music,Management of Companies and Enterprises,NULL,NULL,8.50%,NULL
-Northeastern University,50.0901,Music,Health Care and Social Assistance,NULL,NULL,5.30%,NULL
-Northeastern University,50.0901,Music,Other Services (except Public Administration),NULL,NULL,3.20%,NULL
-Northeastern University,50.0901,Music,Information,NULL,NULL,2.10%,NULL
-Northeastern University,50.0901,Music,Finance and Insurance,NULL,NULL,2.10%,NULL
-Northeastern University,50.0901,Music,Real Estate and Rental and Leasing,NULL,NULL,2.10%,NULL
-Northeastern University,50.0901,Music,Retail Trade,NULL,NULL,2.10%,NULL
-Northeastern University,50.0901,Music,Manufacturing,NULL,NULL,2.10%,NULL
-Northeastern University,50.0901,Music,Public Administration,NULL,NULL,1.10%,NULL
+Georgia Institute of Technology,NULL,MS Architecture,NULL,NULL,NULL,0.84,NULL
+Northeastern University,50.0901,Music,"Arts, Entertainment, and Recreation",NULL,NULL,0.43,NULL
+Northeastern University,50.0901,Music,Educational Services,NULL,NULL,0.18,NULL
+Northeastern University,50.0901,Music,"Professional, Scientific, and Technical Services",NULL,NULL,0.09,NULL
+Northeastern University,50.0901,Music,Management of Companies and Enterprises,NULL,NULL,0.09,NULL
+Northeastern University,50.0901,Music,Health Care and Social Assistance,NULL,NULL,0.05,NULL
+Northeastern University,50.0901,Music,Other Services (except Public Administration),NULL,NULL,0.03,NULL
+Northeastern University,50.0901,Music,Information,NULL,NULL,0.02,NULL
+Northeastern University,50.0901,Music,Finance and Insurance,NULL,NULL,0.02,NULL
+Northeastern University,50.0901,Music,Real Estate and Rental and Leasing,NULL,NULL,0.02,NULL
+Northeastern University,50.0901,Music,Retail Trade,NULL,NULL,0.02,NULL
+Northeastern University,50.0901,Music,Manufacturing,NULL,NULL,0.02,NULL
+Northeastern University,50.0901,Music,Public Administration,NULL,NULL,0.01,NULL
 Haverford College,50.0901,Music,Business - Other,Dawson,Auto Production Associate,0.000,NULL
 Davidson College,50.0901,Music,"Education, Social and Community Services & Nonprofits",Teach For America,Junior High School Teacher,0.000,25-2022
 Davidson College,50.0901,Music,"Arts, Entertainment, Communication & Marketing",WDAV Classical Public Radio,Summer Intern,0.000,NULL
@@ -2260,7 +2260,7 @@ Yale University,NULL,Near Eastern Languages and Civilization,Consulting,NULL,NUL
 Yale University,NULL,Near Eastern Languages and Civilization,Finance,NULL,NULL,20.00,NULL
 Yale University,NULL,Near Eastern Languages and Civilization,Outdoor Education,NULL,NULL,20.00,NULL
 Yale University,NULL,Near Eastern Languages and Civilization,"Research (Policy, Academic, Literary)",NULL,NULL,20.00,NULL
-Georgia Institute of Technology,30.2401,Neuroscience,NULL,NULL,NULL,63.6%,NULL
+Georgia Institute of Technology,30.2401,Neuroscience,NULL,NULL,NULL,0.64,NULL
 Yale University,30.2401,Neuroscience,Research: Laboratory,NULL,NULL,44.12,NULL
 Yale University,30.2401,Neuroscience,Health Services/Healthcare,NULL,NULL,14.71,NULL
 Yale University,30.2401,Neuroscience,Consulting,NULL,NULL,11.76,NULL
@@ -2269,46 +2269,46 @@ Yale University,30.2401,Neuroscience,"Research (Policy, Academic, Literary)",NUL
 Yale University,30.2401,Neuroscience,Engineering,NULL,NULL,2.94,NULL
 Yale University,30.2401,Neuroscience,Finance,NULL,NULL,2.94,NULL
 Yale University,30.2401,Neuroscience,Operations,NULL,NULL,2.94,NULL
-Georgia Institute of Technology,NULL,Nuclear and Radiological Engineering,NULL,NULL,NULL,28.6%,NULL
-Northeastern University,51.3803,Nursing,Health Care and Social Assistance,NULL,NULL,85.10%,NULL
-Northeastern University,51.3803,Nursing,Educational Services,NULL,NULL,6.20%,NULL
-Northeastern University,51.3803,Nursing,"Professional, Scientific, and Technical Services",NULL,NULL,4.90%,NULL
-Northeastern University,51.3803,Nursing,Public Administration,NULL,NULL,0.80%,NULL
-Northeastern University,51.3803,Nursing,Accommodation and Food Services,NULL,NULL,0.60%,NULL
-Northeastern University,51.3803,Nursing,Manufacturing,NULL,NULL,0.50%,NULL
-Northeastern University,51.3803,Nursing,Finance and Insurance,NULL,NULL,0.50%,NULL
-Northeastern University,51.3803,Nursing,"Arts, Entertainment, and Recreation",NULL,NULL,0.30%,NULL
-Northeastern University,51.3803,Nursing,Retail Trade,NULL,NULL,0.30%,NULL
-Northeastern University,51.3803,Nursing,Other Services (except Public Administration),NULL,NULL,0.30%,NULL
-Northeastern University,51.3803,Nursing,Management of Companies and Enterprises,NULL,NULL,0.20%,NULL
-Northeastern University,51.3803,Nursing,Wholesale Trade,NULL,NULL,0.20%,NULL
-Georgia Institute of Technology,14.3701,Operations Research,NULL,NULL,NULL,40.0%,NULL
-Northeastern University,51.2001,Pharmacy,Health Care and Social Assistance,NULL,NULL,81.50%,NULL
-Northeastern University,51.2001,Pharmacy,Educational Services,NULL,NULL,8.50%,NULL
-Northeastern University,51.2001,Pharmacy,"Professional, Scientific, and Technical Services",NULL,NULL,5.30%,NULL
-Northeastern University,51.2001,Pharmacy,Wholesale Trade,NULL,NULL,1.30%,NULL
-Northeastern University,51.2001,Pharmacy,Public Administration,NULL,NULL,0.60%,NULL
-Northeastern University,51.2001,Pharmacy,Transportation and Warehousing,NULL,NULL,0.60%,NULL
-Northeastern University,51.2001,Pharmacy,Other Services (except Public Administration),NULL,NULL,0.60%,NULL
-Northeastern University,51.2001,Pharmacy,Retail Trade,NULL,NULL,0.30%,NULL
-Northeastern University,51.2001,Pharmacy,Manufacturing,NULL,NULL,0.30%,NULL
-Northeastern University,51.2001,Pharmacy,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,0.30%,NULL
-Northeastern University,51.2001,Pharmacy,Accommodation and Food Services,NULL,NULL,0.30%,NULL
-Northeastern University,51.2001,Pharmacy,"Arts, Entertainment, and Recreation",NULL,NULL,0.30%,NULL
-Northeastern University,51.1103,Pharmacy Studies,Health Care and Social Assistance,NULL,NULL,68.90%,NULL
-Northeastern University,51.1103,Pharmacy Studies,Educational Services,NULL,NULL,8.20%,NULL
-Northeastern University,51.1103,Pharmacy Studies,Wholesale Trade,NULL,NULL,8.20%,NULL
-Northeastern University,51.1103,Pharmacy Studies,"Professional, Scientific, and Technical Services",NULL,NULL,6.60%,NULL
-Northeastern University,51.1103,Pharmacy Studies,Manufacturing,NULL,NULL,3.30%,NULL
-Northeastern University,51.1103,Pharmacy Studies,Finance and Insurance,NULL,NULL,3.30%,NULL
-Northeastern University,51.1103,Pharmacy Studies,Public Administration,NULL,NULL,1.60%,NULL
+Georgia Institute of Technology,NULL,Nuclear and Radiological Engineering,NULL,NULL,NULL,0.29,NULL
+Northeastern University,51.3803,Nursing,Health Care and Social Assistance,NULL,NULL,0.85,NULL
+Northeastern University,51.3803,Nursing,Educational Services,NULL,NULL,0.06,NULL
+Northeastern University,51.3803,Nursing,"Professional, Scientific, and Technical Services",NULL,NULL,0.05,NULL
+Northeastern University,51.3803,Nursing,Public Administration,NULL,NULL,0.01,NULL
+Northeastern University,51.3803,Nursing,Accommodation and Food Services,NULL,NULL,0.01,NULL
+Northeastern University,51.3803,Nursing,Manufacturing,NULL,NULL,0.01,NULL
+Northeastern University,51.3803,Nursing,Finance and Insurance,NULL,NULL,0.01,NULL
+Northeastern University,51.3803,Nursing,"Arts, Entertainment, and Recreation",NULL,NULL,0.00,NULL
+Northeastern University,51.3803,Nursing,Retail Trade,NULL,NULL,0.00,NULL
+Northeastern University,51.3803,Nursing,Other Services (except Public Administration),NULL,NULL,0.00,NULL
+Northeastern University,51.3803,Nursing,Management of Companies and Enterprises,NULL,NULL,0.00,NULL
+Northeastern University,51.3803,Nursing,Wholesale Trade,NULL,NULL,0.00,NULL
+Georgia Institute of Technology,14.3701,Operations Research,NULL,NULL,NULL,0.40,NULL
+Northeastern University,51.2001,Pharmacy,Health Care and Social Assistance,NULL,NULL,0.82,NULL
+Northeastern University,51.2001,Pharmacy,Educational Services,NULL,NULL,0.09,NULL
+Northeastern University,51.2001,Pharmacy,"Professional, Scientific, and Technical Services",NULL,NULL,0.05,NULL
+Northeastern University,51.2001,Pharmacy,Wholesale Trade,NULL,NULL,0.01,NULL
+Northeastern University,51.2001,Pharmacy,Public Administration,NULL,NULL,0.01,NULL
+Northeastern University,51.2001,Pharmacy,Transportation and Warehousing,NULL,NULL,0.01,NULL
+Northeastern University,51.2001,Pharmacy,Other Services (except Public Administration),NULL,NULL,0.01,NULL
+Northeastern University,51.2001,Pharmacy,Retail Trade,NULL,NULL,0.00,NULL
+Northeastern University,51.2001,Pharmacy,Manufacturing,NULL,NULL,0.00,NULL
+Northeastern University,51.2001,Pharmacy,"Mining, Quarrying, and Oil and Gas Extraction",NULL,NULL,0.00,NULL
+Northeastern University,51.2001,Pharmacy,Accommodation and Food Services,NULL,NULL,0.00,NULL
+Northeastern University,51.2001,Pharmacy,"Arts, Entertainment, and Recreation",NULL,NULL,0.00,NULL
+Northeastern University,51.1103,Pharmacy Studies,Health Care and Social Assistance,NULL,NULL,0.69,NULL
+Northeastern University,51.1103,Pharmacy Studies,Educational Services,NULL,NULL,0.08,NULL
+Northeastern University,51.1103,Pharmacy Studies,Wholesale Trade,NULL,NULL,0.08,NULL
+Northeastern University,51.1103,Pharmacy Studies,"Professional, Scientific, and Technical Services",NULL,NULL,0.07,NULL
+Northeastern University,51.1103,Pharmacy Studies,Manufacturing,NULL,NULL,0.03,NULL
+Northeastern University,51.1103,Pharmacy Studies,Finance and Insurance,NULL,NULL,0.03,NULL
+Northeastern University,51.1103,Pharmacy Studies,Public Administration,NULL,NULL,0.02,NULL
 Davidson College,38.0101,Philosophy,Military,NULL,NULL,0.000,NULL
-Northeastern University,38.0101,Philosophy,"Professional, Scientific, and Technical Services",NULL,NULL,30.00%,NULL
-Northeastern University,38.0101,Philosophy,Accommodation and Food Services,NULL,NULL,20.00%,NULL
-Northeastern University,38.0101,Philosophy,"Arts, Entertainment, and Recreation",NULL,NULL,20.00%,NULL
-Northeastern University,38.0101,Philosophy,Real Estate and Rental and Leasing,NULL,NULL,10.00%,NULL
-Northeastern University,38.0101,Philosophy,Public Administration,NULL,NULL,10.00%,NULL
-Northeastern University,38.0101,Philosophy,Finance and Insurance,NULL,NULL,10.00%,NULL
+Northeastern University,38.0101,Philosophy,"Professional, Scientific, and Technical Services",NULL,NULL,0.30,NULL
+Northeastern University,38.0101,Philosophy,Accommodation and Food Services,NULL,NULL,0.20,NULL
+Northeastern University,38.0101,Philosophy,"Arts, Entertainment, and Recreation",NULL,NULL,0.20,NULL
+Northeastern University,38.0101,Philosophy,Real Estate and Rental and Leasing,NULL,NULL,0.10,NULL
+Northeastern University,38.0101,Philosophy,Public Administration,NULL,NULL,0.10,NULL
+Northeastern University,38.0101,Philosophy,Finance and Insurance,NULL,NULL,0.10,NULL
 Davidson College,38.0101,Philosophy,"Banking, Finance, Real Estate & Insurance",Wells Fargo Securities - IBCM,Analyst,0.000,13-2051
 Davidson College,38.0101,Philosophy,"Science, Technology, Engineering, Math & Computer Science","Lucid Drone Technologies, Inc.",COO,0.000,NULL
 Davidson College,38.0101,Philosophy,"Education, Social and Community Services & Nonprofits",City on a Hill Charter Public Schools,History Fellow,0.000,NULL
@@ -2338,25 +2338,25 @@ Yale University,38.0101,Philosophy,Military Operations,NULL,NULL,1.92,NULL
 Yale University,38.0101,Philosophy,"Performance (Acting, Dance, Music)",NULL,NULL,1.92,NULL
 Yale University,38.0101,Philosophy,Research: Laboratory,NULL,NULL,1.92,NULL
 Yale University,38.0101,Philosophy,"Visual Arts (Graphic Design, Painting, Photography, Sculpture)",NULL,NULL,1.92,NULL
-Northeastern University,51.2308,Physical Therapy,Health Care and Social Assistance,NULL,NULL,84.00%,NULL
-Northeastern University,51.2308,Physical Therapy,"Professional, Scientific, and Technical Services",NULL,NULL,7.20%,NULL
-Northeastern University,51.2308,Physical Therapy,Educational Services,NULL,NULL,3.10%,NULL
-Northeastern University,51.2308,Physical Therapy,"Arts, Entertainment, and Recreation",NULL,NULL,1.90%,NULL
-Northeastern University,51.2308,Physical Therapy,Management of Companies and Enterprises,NULL,NULL,0.90%,NULL
-Northeastern University,51.2308,Physical Therapy,Public Administration,NULL,NULL,0.90%,NULL
-Northeastern University,51.2308,Physical Therapy,Finance and Insurance,NULL,NULL,0.60%,NULL
-Northeastern University,51.2308,Physical Therapy,Retail Trade,NULL,NULL,0.60%,NULL
-Northeastern University,51.2308,Physical Therapy,Transportation and Warehousing,NULL,NULL,0.30%,NULL
-Northeastern University,51.2308,Physical Therapy,Real Estate and Rental and Leasing,NULL,NULL,0.30%,NULL
-Georgia Institute of Technology,40.0801,Physics,NULL,NULL,NULL,50.0%,NULL
-Northeastern University,40.0801,Physics,Educational Services,NULL,NULL,40.00%,NULL
-Northeastern University,40.0801,Physics,"Professional, Scientific, and Technical Services",NULL,NULL,36.00%,NULL
-Northeastern University,40.0801,Physics,Public Administration,NULL,NULL,4.00%,NULL
-Northeastern University,40.0801,Physics,Finance and Insurance,NULL,NULL,4.00%,NULL
-Northeastern University,40.0801,Physics,Administrative and Support and Waste Management and Remediation Services,NULL,NULL,4.00%,NULL
-Northeastern University,40.0801,Physics,Transportation and Warehousing,NULL,NULL,4.00%,NULL
-Northeastern University,40.0801,Physics,Manufacturing,NULL,NULL,4.00%,NULL
-Northeastern University,40.0801,Physics,Health Care and Social Assistance,NULL,NULL,4.00%,NULL
+Northeastern University,51.2308,Physical Therapy,Health Care and Social Assistance,NULL,NULL,0.84,NULL
+Northeastern University,51.2308,Physical Therapy,"Professional, Scientific, and Technical Services",NULL,NULL,0.07,NULL
+Northeastern University,51.2308,Physical Therapy,Educational Services,NULL,NULL,0.03,NULL
+Northeastern University,51.2308,Physical Therapy,"Arts, Entertainment, and Recreation",NULL,NULL,0.02,NULL
+Northeastern University,51.2308,Physical Therapy,Management of Companies and Enterprises,NULL,NULL,0.01,NULL
+Northeastern University,51.2308,Physical Therapy,Public Administration,NULL,NULL,0.01,NULL
+Northeastern University,51.2308,Physical Therapy,Finance and Insurance,NULL,NULL,0.01,NULL
+Northeastern University,51.2308,Physical Therapy,Retail Trade,NULL,NULL,0.01,NULL
+Northeastern University,51.2308,Physical Therapy,Transportation and Warehousing,NULL,NULL,0.00,NULL
+Northeastern University,51.2308,Physical Therapy,Real Estate and Rental and Leasing,NULL,NULL,0.00,NULL
+Georgia Institute of Technology,40.0801,Physics,NULL,NULL,NULL,0.50,NULL
+Northeastern University,40.0801,Physics,Educational Services,NULL,NULL,0.40,NULL
+Northeastern University,40.0801,Physics,"Professional, Scientific, and Technical Services",NULL,NULL,0.36,NULL
+Northeastern University,40.0801,Physics,Public Administration,NULL,NULL,0.04,NULL
+Northeastern University,40.0801,Physics,Finance and Insurance,NULL,NULL,0.04,NULL
+Northeastern University,40.0801,Physics,Administrative and Support and Waste Management and Remediation Services,NULL,NULL,0.04,NULL
+Northeastern University,40.0801,Physics,Transportation and Warehousing,NULL,NULL,0.04,NULL
+Northeastern University,40.0801,Physics,Manufacturing,NULL,NULL,0.04,NULL
+Northeastern University,40.0801,Physics,Health Care and Social Assistance,NULL,NULL,0.04,NULL
 Haverford College,40.0801,Physics,Health Care,AmeriCorps * VISTA (Volunteer In Service To America),Americorps VISTA,0.000,NULL
 Haverford College,40.0801,Physics,Education,Learning Garden,"Assistant Teacher, Toddler Classroom",0.000,NULL
 Davidson College,40.0801,Physics,"Science, Technology, Engineering, Math & Computer Science","Everyday Technologies, Inc.",Estimator,0.000,13-1051
@@ -2390,18 +2390,18 @@ The Ohio State University,26.0305,Plant Pathology / Plant Health Management,NULL
 Davidson College,45.1001,Political Science,"Consulting, Management, Sales, HR & General Business",Fortitude systems,NULL,0.000,NULL
 Davidson College,45.1001,Political Science,"Education, Social and Community Services & Nonprofits",Touch Foundation,NULL,0.000,NULL
 Davidson College,45.1001,Political Science,Military,NULL,NULL,0.000,NULL
-Northeastern University,45.1001,Political Science,Public Administration,NULL,NULL,29.60%,NULL
-Northeastern University,45.1001,Political Science,Educational Services,NULL,NULL,14.80%,NULL
-Northeastern University,45.1001,Political Science,Other Services (except Public Administration),NULL,NULL,12.20%,NULL
-Northeastern University,45.1001,Political Science,"Professional, Scientific, and Technical Services",NULL,NULL,9.60%,NULL
-Northeastern University,45.1001,Political Science,Finance and Insurance,NULL,NULL,7.00%,NULL
-Northeastern University,45.1001,Political Science,Health Care and Social Assistance,NULL,NULL,5.20%,NULL
-Northeastern University,45.1001,Political Science,"Arts, Entertainment, and Recreation",NULL,NULL,3.50%,NULL
-Northeastern University,45.1001,Political Science,Management of Companies and Enterprises,NULL,NULL,2.60%,NULL
-Northeastern University,45.1001,Political Science,Accommodation and Food Services,NULL,NULL,2.60%,NULL
-Northeastern University,45.1001,Political Science,Construction,NULL,NULL,2.60%,NULL
-Northeastern University,45.1001,Political Science,Real Estate and Rental and Leasing,NULL,NULL,2.60%,NULL
-Northeastern University,45.1001,Political Science,Wholesale Trade,NULL,NULL,2.60%,NULL
+Northeastern University,45.1001,Political Science,Public Administration,NULL,NULL,0.30,NULL
+Northeastern University,45.1001,Political Science,Educational Services,NULL,NULL,0.15,NULL
+Northeastern University,45.1001,Political Science,Other Services (except Public Administration),NULL,NULL,0.12,NULL
+Northeastern University,45.1001,Political Science,"Professional, Scientific, and Technical Services",NULL,NULL,0.10,NULL
+Northeastern University,45.1001,Political Science,Finance and Insurance,NULL,NULL,0.07,NULL
+Northeastern University,45.1001,Political Science,Health Care and Social Assistance,NULL,NULL,0.05,NULL
+Northeastern University,45.1001,Political Science,"Arts, Entertainment, and Recreation",NULL,NULL,0.04,NULL
+Northeastern University,45.1001,Political Science,Management of Companies and Enterprises,NULL,NULL,0.03,NULL
+Northeastern University,45.1001,Political Science,Accommodation and Food Services,NULL,NULL,0.03,NULL
+Northeastern University,45.1001,Political Science,Construction,NULL,NULL,0.03,NULL
+Northeastern University,45.1001,Political Science,Real Estate and Rental and Leasing,NULL,NULL,0.03,NULL
+Northeastern University,45.1001,Political Science,Wholesale Trade,NULL,NULL,0.03,NULL
 Haverford College,45.1001,Political Science,Education,St. James School,Advancement Coordinator,0.000,NULL
 Davidson College,45.1001,Political Science,Political Science,Habitat for Humanity International,Americorps VISTA: Project Development,0.000,13-1082
 Davidson College,45.1001,Political Science,"Arts, Entertainment, Communication & Marketing",Red Ventures,Analyst,0.000,13-2051
@@ -2498,18 +2498,18 @@ Yale University,45.1001,Political Science,"Visual Arts (Graphic Design, Painting
 The Ohio State University,31.0302,Professional Golf Management,NULL,NULL,Assistant Golf Professional,0.000,NULL
 The Ohio State University,31.0302,Professional Golf Management,NULL,NULL,Assistant Golf Professional,0.000,NULL
 The Ohio State University,31.0302,Professional Golf Management,NULL,NULL,Head Golf Professional,0.000,NULL
-Northeastern University,42.0101,Psychology,Health Care and Social Assistance,NULL,NULL,32.40%,NULL
-Northeastern University,42.0101,Psychology,Educational Services,NULL,NULL,20.90%,NULL
-Northeastern University,42.0101,Psychology,"Professional, Scientific, and Technical Services",NULL,NULL,14.60%,NULL
-Northeastern University,42.0101,Psychology,Other Services (except Public Administration),NULL,NULL,7.30%,NULL
-Northeastern University,42.0101,Psychology,Management of Companies and Enterprises,NULL,NULL,3.80%,NULL
-Northeastern University,42.0101,Psychology,Finance and Insurance,NULL,NULL,3.50%,NULL
-Northeastern University,42.0101,Psychology,Retail Trade,NULL,NULL,3.50%,NULL
-Northeastern University,42.0101,Psychology,"Arts, Entertainment, and Recreation",NULL,NULL,3.10%,NULL
-Northeastern University,42.0101,Psychology,Accommodation and Food Services,NULL,NULL,2.40%,NULL
-Northeastern University,42.0101,Psychology,Public Administration,NULL,NULL,2.10%,NULL
-Northeastern University,42.0101,Psychology,Manufacturing,NULL,NULL,1.70%,NULL
-Northeastern University,42.0101,Psychology,Real Estate and Rental and Leasing,NULL,NULL,1.40%,NULL
+Northeastern University,42.0101,Psychology,Health Care and Social Assistance,NULL,NULL,0.32,NULL
+Northeastern University,42.0101,Psychology,Educational Services,NULL,NULL,0.21,NULL
+Northeastern University,42.0101,Psychology,"Professional, Scientific, and Technical Services",NULL,NULL,0.15,NULL
+Northeastern University,42.0101,Psychology,Other Services (except Public Administration),NULL,NULL,0.07,NULL
+Northeastern University,42.0101,Psychology,Management of Companies and Enterprises,NULL,NULL,0.04,NULL
+Northeastern University,42.0101,Psychology,Finance and Insurance,NULL,NULL,0.04,NULL
+Northeastern University,42.0101,Psychology,Retail Trade,NULL,NULL,0.04,NULL
+Northeastern University,42.0101,Psychology,"Arts, Entertainment, and Recreation",NULL,NULL,0.03,NULL
+Northeastern University,42.0101,Psychology,Accommodation and Food Services,NULL,NULL,0.02,NULL
+Northeastern University,42.0101,Psychology,Public Administration,NULL,NULL,0.02,NULL
+Northeastern University,42.0101,Psychology,Manufacturing,NULL,NULL,0.02,NULL
+Northeastern University,42.0101,Psychology,Real Estate and Rental and Leasing,NULL,NULL,0.01,NULL
 Haverford College,42.0101,Psychology,Business - Other,italyMONDO!,Administrative Assistant,0.000,NULL
 Davidson College,42.0101,Psychology,"Education, Social and Community Services & Nonprofits",Schuler Scholar Program,AmeriCorps Scholar Coach,0.000,27-2022
 Davidson College,42.0101,Psychology,"Education, Social and Community Services & Nonprofits",National Student Leadership Conference,Assistant Site Director,0.000,NULL
@@ -2578,8 +2578,8 @@ Yale University,42.0101,Psychology,Ministry,NULL,NULL,0.40,NULL
 Yale University,42.0101,Psychology,Outdoor Education,NULL,NULL,0.40,NULL
 Yale University,42.0101,Psychology,Professional Athlete,NULL,NULL,0.40,NULL
 Yale University,42.0101,Psychology,Sports Management,NULL,NULL,0.40,NULL
-Georgia Institute of Technology,NULL,Public Policy,NULL,NULL,NULL,100.0%,NULL
-Georgia Institute of Technology,4.1001,Real Estate Development,NULL,NULL,NULL,58.3%,NULL
+Georgia Institute of Technology,NULL,Public Policy,NULL,NULL,NULL,1.00,NULL
+Georgia Institute of Technology,4.1001,Real Estate Development,NULL,NULL,NULL,0.58,NULL
 Davidson College,38.0201,Religious Studies,"Education, Social and Community Services & Nonprofits",Davidson College,Archives Assistant,0.000,25-4011
 Yale University,38.0201,Religious Studies,Health Services/Healthcare,NULL,NULL,16.67,NULL
 Yale University,38.0201,Religious Studies,Teaching/Curriculum Development,NULL,NULL,16.67,NULL
@@ -2591,7 +2591,7 @@ Yale University,38.0201,Religious Studies,Library Science,NULL,NULL,8.33,NULL
 Yale University,38.0201,Religious Studies,Ministry,NULL,NULL,8.33,NULL
 Yale University,38.0201,Religious Studies,Office Administrative/Support Services,NULL,NULL,8.33,NULL
 Yale University,38.0201,Religious Studies,"Research (Policy, Academic, Literary)",NULL,NULL,8.33,NULL
-Georgia Institute of Technology,15.0405,Robotics,NULL,NULL,NULL,33.3%,NULL
+Georgia Institute of Technology,15.0405,Robotics,NULL,NULL,NULL,0.33,NULL
 Haverford College,16.0900,Romance Languages,Education,Severn School,Middle School Spanish and French Teacher,0.000, 25-2022
 Haverford College,5.0110,Russian,Communications,The Odyssey Online,Writer,0.000,27-3043
 Yale University,5.0110,Russian and East European Studies,Writing/Editing,NULL,NULL,44.44,NULL
@@ -2599,18 +2599,18 @@ Yale University,5.0110,Russian and East European Studies,Office Administrative/S
 Yale University,5.0110,Russian and East European Studies,Business Development,NULL,NULL,11.11,NULL
 Yale University,5.0110,Russian and East European Studies,Operations,NULL,NULL,11.11,NULL
 Yale University,5.0110,Russian and East European Studies,Teaching/Curriculum Development,NULL,NULL,11.11,NULL
-Northeastern University,45.1101,Sociology,Educational Services,NULL,NULL,25.00%,NULL
-Northeastern University,45.1101,Sociology,Health Care and Social Assistance,NULL,NULL,17.30%,NULL
-Northeastern University,45.1101,Sociology,Accommodation and Food Services,NULL,NULL,9.60%,NULL
-Northeastern University,45.1101,Sociology,Other Services (except Public Administration),NULL,NULL,9.60%,NULL
-Northeastern University,45.1101,Sociology,"Professional, Scientific, and Technical Services",NULL,NULL,7.70%,NULL
-Northeastern University,45.1101,Sociology,Retail Trade,NULL,NULL,5.80%,NULL
-Northeastern University,45.1101,Sociology,Finance and Insurance,NULL,NULL,5.80%,NULL
-Northeastern University,45.1101,Sociology,Public Administration,NULL,NULL,5.80%,NULL
-Northeastern University,45.1101,Sociology,Management of Companies and Enterprises,NULL,NULL,5.80%,NULL
-Northeastern University,45.1101,Sociology,"Arts, Entertainment, and Recreation",NULL,NULL,3.80%,NULL
-Northeastern University,45.1101,Sociology,Information,NULL,NULL,1.90%,NULL
-Northeastern University,45.1101,Sociology,Wholesale Trade,NULL,NULL,1.90%,NULL
+Northeastern University,45.1101,Sociology,Educational Services,NULL,NULL,0.25,NULL
+Northeastern University,45.1101,Sociology,Health Care and Social Assistance,NULL,NULL,0.17,NULL
+Northeastern University,45.1101,Sociology,Accommodation and Food Services,NULL,NULL,0.10,NULL
+Northeastern University,45.1101,Sociology,Other Services (except Public Administration),NULL,NULL,0.10,NULL
+Northeastern University,45.1101,Sociology,"Professional, Scientific, and Technical Services",NULL,NULL,0.08,NULL
+Northeastern University,45.1101,Sociology,Retail Trade,NULL,NULL,0.06,NULL
+Northeastern University,45.1101,Sociology,Finance and Insurance,NULL,NULL,0.06,NULL
+Northeastern University,45.1101,Sociology,Public Administration,NULL,NULL,0.06,NULL
+Northeastern University,45.1101,Sociology,Management of Companies and Enterprises,NULL,NULL,0.06,NULL
+Northeastern University,45.1101,Sociology,"Arts, Entertainment, and Recreation",NULL,NULL,0.04,NULL
+Northeastern University,45.1101,Sociology,Information,NULL,NULL,0.02,NULL
+Northeastern University,45.1101,Sociology,Wholesale Trade,NULL,NULL,0.02,NULL
 Davidson College,45.1101,Sociology,"Science, Technology, Engineering, Math & Computer Science",Electrolux,Analyst,0.000,13-2051
 Davidson College,45.1101,Sociology,"Education, Social and Community Services & Nonprofits",Cuyahoga Metropolitan Housing Authority,Cleveland Foundation Fellow,0.000,NULL
 Davidson College,45.1101,Sociology,"Education, Social and Community Services & Nonprofits",Habitat for Humanity International,Fellow,0.000,NULL
@@ -2669,7 +2669,7 @@ Yale University,30.7001,Statistics and Data Science,IT Technical Support,NULL,NU
 Yale University,30.7001,Statistics and Data Science,Law,NULL,NULL,1.16,NULL
 Yale University,30.7001,Statistics and Data Science,Office Administrative/Support Services,NULL,NULL,1.16,NULL
 Yale University,30.7001,Statistics and Data Science,Teaching/Curriculum Development,NULL,NULL,1.16,NULL
-Georgia Institute of Technology,NULL,Supply Chain Engineering,NULL,NULL,NULL,69.2%,NULL
+Georgia Institute of Technology,NULL,Supply Chain Engineering,NULL,NULL,NULL,0.69,NULL
 The Ohio State University,1.1102,Sustainable Plt Systs - Agronomy,NULL,NULL,Agronomist,0.000,NULL
 The Ohio State University,1.1102,Sustainable Plt Systs - Agronomy,NULL,NULL,Agronomy Sales,0.000,NULL
 The Ohio State University,1.1102,Sustainable Plt Systs - Agronomy,NULL,NULL,Crop & Insurance Advisor,0.000,NULL
@@ -2707,13 +2707,13 @@ Yale University,36.0117,Theater and Performance Studies,Outdoor Education,NULL,N
 Yale University,36.0117,Theater and Performance Studies,Project Management,NULL,NULL,2.33,NULL
 Yale University,36.0117,Theater and Performance Studies,Research: Laboratory,NULL,NULL,2.33,NULL
 Yale University,36.0117,Theater and Performance Studies,Sustainability/Social Responsibility,NULL,NULL,2.33,NULL
-Northeastern University,36.0117,Theatre,"Arts, Entertainment, and Recreation",NULL,NULL,50.00%,NULL
-Northeastern University,36.0117,Theatre,Educational Services,NULL,NULL,13.60%,NULL
-Northeastern University,36.0117,Theatre,Health Care and Social Assistance,NULL,NULL,9.10%,NULL
-Northeastern University,36.0117,Theatre,Management of Companies and Enterprises,NULL,NULL,9.10%,NULL
-Northeastern University,36.0117,Theatre,"Professional, Scientific, and Technical Services",NULL,NULL,9.10%,NULL
-Northeastern University,36.0117,Theatre,Construction,NULL,NULL,4.50%,NULL
-Northeastern University,36.0117,Theatre,Accommodation and food services,NULL,NULL,4.50%,NULL
+Northeastern University,36.0117,Theatre,"Arts, Entertainment, and Recreation",NULL,NULL,0.50,NULL
+Northeastern University,36.0117,Theatre,Educational Services,NULL,NULL,0.14,NULL
+Northeastern University,36.0117,Theatre,Health Care and Social Assistance,NULL,NULL,0.09,NULL
+Northeastern University,36.0117,Theatre,Management of Companies and Enterprises,NULL,NULL,0.09,NULL
+Northeastern University,36.0117,Theatre,"Professional, Scientific, and Technical Services",NULL,NULL,0.09,NULL
+Northeastern University,36.0117,Theatre,Construction,NULL,NULL,0.05,NULL
+Northeastern University,36.0117,Theatre,Accommodation and food services,NULL,NULL,0.05,NULL
 Davidson College,36.0117,Theatre,"Arts, Entertainment, Communication & Marketing",Triad Stage,Electrics and Sound Apprentice,0.000,27-4014
 Davidson College,36.0117,Theatre,"Public Policy, Politics, Government & Law",Peace Corps,English Literacy Volunteer,0.000,NULL
 Davidson College,36.0117,Theatre,"Arts, Entertainment, Communication & Marketing",Stone Mountain Park,Entertainer,0.000,27-2099
