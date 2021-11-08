@@ -1,0 +1,11 @@
+install.packages('RPostgreSQL')
+
+
+
+
+
+host = "139.147.9.145",
+database = "stride_db",
+user = "public_reader",
+password = "oogleBoss.23",
+port = 5432)

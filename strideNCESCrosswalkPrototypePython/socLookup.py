@@ -12,8 +12,6 @@ def SOCLookup(title, df):
 
 def importingAndSetup():
     SOCdf = getPSQLOutput('SELECT SOC2018CodeTitle, SOC2018Code FROM cip2020_soc2018')
-    # CIP2020ToSOCPath = 'CIP2020_SOC2018_Crosswalk.xlsx'
-    # CIP2020ToSOCDf = pd.read_excel(CIP2020ToSOCPath, sheet_name=1)  
     SOCdf = SOCdf[['soc2018codetitle', 'soc2018code']].copy()
     return SOCdf
 
@@ -26,4 +24,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
