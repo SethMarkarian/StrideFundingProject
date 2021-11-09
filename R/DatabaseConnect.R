@@ -1,5 +1,6 @@
-#Have to follow this to install drivers for psql
-#https://db.rstudio.com/best-practices/drivers/
+# Have to follow this to install drivers for psql
+# https://db.rstudio.com/best-practices/drivers/
+# https://www.youtube.com/watch?v=vchmuyLzjkg
 
 # Install the latest odbc release from CRAN:
 install.packages("odbc")
@@ -8,12 +9,11 @@ install.packages("odbc")
 # install.packages(devtools)
 devtools::install_github("rstats-db/odbc")
 
+library(DBI)
+library(RODBC)
+library(odbc)
 
 
-con <- DBI::dbConnect(odbc::odbc(),
-                      Driver   = "odbc",
-                      Server   = "139.147.9.145",
-                      Database = "stride_db",
-                      UID      = "public_reader",
-                      PWD      = rstudioapi::askForPassword("public_reader password"),
-                      Port     = 5432)
+
+con <- DBI::dbConnect(odbc::odbc(),"postgreSQL30")
+dbGetQuery(con, 'SELECT * FROM "stride_db","public","school_career_outcomes"')
