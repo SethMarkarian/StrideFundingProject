@@ -14,6 +14,5 @@ library(RODBC)
 library(odbc)
 
 
-
-con <- DBI::dbConnect(odbc::odbc(),"postgreSQL30")
-dbGetQuery(con, 'SELECT * FROM "stride_db","public","school_career_outcomes"')
+con <- DBI::dbConnect(odbc::odbc(),"psqlR")
+data <- dbGetQuery(con, 'SELECT * FROM school_career_outcomes')
