@@ -1,22 +1,20 @@
-CREATE TABLE cip2010_cip2020 (
-    CIP2010Code varchar(7),
-    CIP2010Title text,
-    Action varchar(40),
-    TextChange varchar(5),
-    CIP2020Code varchar(7),
-    CIP2020Ttitle text
+CREATE TABLE IF NOT EXISTS cip2010_cip2020 (
+    cip2010code varchar(7),
+    cip2010title text,
+    action varchar(40),
+    textchange varchar(5),
+    cip2020code varchar(7),
+    cip2020title text
 );
 
-CREATE TABLE cip2020_soc2018 (
-    CIP2020Code varchar(7),
-    CIP2020Title text,
-    SOC2018Code varchar(7),
-    SOC2018CodeTitle text,
-    CIP2020CodeMain char(2),
-    CIP2020CodeSubMain char(5)
+CREATE TABLE IF NOT EXISTS  cip2020_soc2018 (
+    cip2020code varchar(7),
+    cip2020title text,
+    soc2018code varchar(7),
+    soc2018title text,
 );
 
-create table bls2020 (
+CREATE TABLE IF NOT EXISTS bls2020 (
     occ_code char(7),
     occ_title text,
     o_group text,
@@ -39,9 +37,7 @@ create table bls2020 (
     hourly boolean
 );
 
-CREATE TABLE bls2020description (
+CREATE TABLE IF NOT EXISTS bls2020description (
     field text,
     description text
 );
-
-
