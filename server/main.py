@@ -1,25 +1,12 @@
-import os
 from enum import Enum
 from typing import Tuple, List
-from psycopg2 import connect, sql
+from psycopg2 import sql
 from fastapi import FastAPI, Query, HTTPException
+from pydantic import BaseModel
+from db_config.config import get_db_conn
 
 app = FastAPI()
-db_conn = None
-
-databaseFile = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'database_init.txt'), 'r')
-username, password = None, None
-for line in databaseFile:
-    username, password = line.split()
-    break
-
-db_conn = connect(
-    host='139.147.9.145',
-    database='stride_db',
-    user=username,
-    password=password,
-    port=5432)
+db_conn = get_db_conn()
 
 CIP_CHECK_QUERY = 'SELECT cip2010code, {}, cip2020code from cip2010_cip2020 where {} = %(cip)s'
 CIP_INFO_QUERY = """
@@ -35,6 +22,20 @@ class CIPCodeKind(str, Enum):
     twentyTen = "2010"
     twentyTwenty = "2020"
 
+class SOCData(BaseModel):
+    soc_code: str
+    soc_title: str
+    total_employed: int 
+    annual_mean: float
+
+class CIPData(BaseModel):
+    cip2010code: str
+    cip2010title: str
+    cip2020code: str
+    cip2010title: str
+    action: str
+    textchange: str
+
 
 @app.on_event("shutdown")
 def shutdown_event():
@@ -46,7 +47,7 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.get("/api/cip/{cip_code}")
+@app.get("/api/cip/{cip_code}", response_model=CIPData)
 def get_cip_info(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$')):
     check, data = get_cip_code_info(cip_code)
     if not check:
@@ -58,7 +59,7 @@ def get_cip_info(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$'))
     return convert_db_data_to_body(data[0], keyNames)
 
 
-@app.get("/api/cip/{cip_code}/soc/")
+@app.get("/api/cip/{cip_code}/soc/", response_model=List[SOCData])
 def get_soc_codes(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$'),
                   cip_code_kind: CIPCodeKind = Query(..., title="The type of CIP code")):
     check, data = check_cip_code(cip_code, cip_code_kind)
@@ -70,7 +71,7 @@ def get_soc_codes(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$')
     keyNames = ['soc_code', 'soc_title', 'total_employed', 'annual_mean']
     return [convert_db_data_to_body(info, keyNames) for info in get_soc_data_for_cip(cip_2020_code)]
 
-@app.get("/api/soc/{soc_code}")
+@app.get("/api/soc/{soc_code}", response_model=SOCData)
 def get_soc_info(soc_code: str = Query(..., regex=r'^\d{2}-\d{4}$')):
     check, data = get_soc_code_info(soc_code)
     if not check:

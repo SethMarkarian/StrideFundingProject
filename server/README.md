@@ -10,4 +10,4 @@ It also provides a web API to use in coordination with other programs
 2. Ensure that Python library `pip` is installed on your computer.
 3. On Ubuntu and Mac, make sure `libpq-dev` library is installed on your computer. On Ubuntu: `sudo apt-get install -y libpq-dev`. For Mac it is recommended to install `postgresql`: `brew install postgresql`
 3. In the `server` subdirectory, run `pip install -r requirements.txt`
-4. Run server manually following instructions [here](https://fastapi.tiangolo.com/deployment/manually/). Run all commands in the `server` directory.
+4. Run server locally here by running command `uvicorn main:app --reload --port 8000` in the `server` subdirectory.
