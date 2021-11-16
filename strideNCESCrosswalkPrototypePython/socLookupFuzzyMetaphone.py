@@ -6,8 +6,8 @@ import pandas as pd
 import sys
 from psql.main import getPSQLOutput
 
-def importingAndSetup(job_name):
-    SOCdf = getPSQLOutput('SELECT SOC2018CodeTitle, SOC2018Code FROM cip2020_soc2018 where soundex(SOC2018CodeTitle) = soundex(' + "'" + job_name + "'" + ')')
+def runQueryOnJob(job_name, metaphone_index):
+    SOCdf = getPSQLOutput('SELECT SOC2018CodeTitle, SOC2018Code FROM cip2020_soc2018 where metaphone(SOC2018CodeTitle,' + str(metaphone_index) + ') = metaphone(' + "'" + job_name + "'" + ', ' + str(metaphone_index) + ')')
     SOCdf = SOCdf[['soc2018codetitle', 'soc2018code']].copy()
     return SOCdf
 
@@ -15,7 +15,11 @@ def main():
     jobTitle = input("Enter Job Title: ")
     if jobTitle == '':
         sys.exit()
-    df = importingAndSetup(jobTitle)
+    index = 10
+    df = pd.DataFrame()
+    while df.empty:
+        index = index - 1
+        df = runQueryOnJob(jobTitle, index)
     df = df.drop_duplicates()
     print(df.to_string(index = False) + '\n')
     main()
