@@ -1,11 +1,17 @@
 from enum import Enum
 from typing import Tuple, List
 from psycopg2 import sql
-from fastapi import FastAPI, Query, HTTPException
+from fastapi import FastAPI, Query, HTTPException, Request
+from fastapi.responses import HTMLResponse 
+from fastapi.staticfiles import StaticFiles 
+from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 from db_config.config import get_db_conn
 
 app = FastAPI()
+app.mount('/static', StaticFiles(directory='static'), name='static')
+templates = Jinja2Templates(directory='templates')
+
 db_conn = get_db_conn()
 
 CIP_CHECK_QUERY = 'SELECT cip2010code, {}, cip2020code from cip2010_cip2020 where {} = %(cip)s'
@@ -42,9 +48,13 @@ def shutdown_event():
     db_conn.close()
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+@app.get("/", response_class=HTMLResponse)
+async def root(request: Request):
+    return templates.TemplateResponse("index.html", {'request': request})
+
+@app.get("/cipsoc", response_class=HTMLResponse)
+async def root(request: Request):
+    return templates.TemplateResponse("cip_soc_crosswalk.html", {'request': request})
 
 
 @app.get("/api/cip/{cip_code}", response_model=CIPData)
@@ -55,7 +65,6 @@ def get_cip_info(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$'))
             status_code=404, detail='cip_code not found')
     keyNames = ['cip2010code', 'cip2010title', 'cip2020code',
                 'cip2010title', 'action', 'textchange']
-    print(data)
     return convert_db_data_to_body(data[0], keyNames)
 
 
