@@ -27,54 +27,85 @@
         <div class="container-fluid">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                 <a href="https://www.stridefunding.com/"
-                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    class="d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
                     <img src="https://static.wixstatic.com/media/2c6463_2b1a1cb10fa94a4e960ce2b3c7c91889~mv2.png/v1/fill/w_105,h_35,al_c,q_85,usm_0.66_1.00_0.01/TM%2520stride%2520logo_edited.webp"
                         alt="TM%20stride%20logo_edited.png"
                         style="width:84px;height:28px;object-fit:cover;object-position:50% 50%">
+                </a>
+                <a href="/"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                     <span class="fs-3 px-1">CIP- SOC Crosswalk</span>
                 </a>
-
-                <ul class="nav nav-pills">
-                    <li id='home' class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li id='crosswalk' class="nav-item"><a href="#" class="nav-link">CIP - SOC Crosswalk</a></li>
-                    <li id='cip' class="nav-item"><a href="#" class="nav-link">CIP Info</a></li>
-                    <li id='soc' class="nav-item"><a href="#" class="nav-link">SOC Info</a></li>
-                    <li id='about' class="nav-item"><a href="#" class="nav-link">About</a></li>
-                </ul>
             </header>
         </div>
 
         <div id='main-content'>
-            <div class="container  shadow-content-box">
+            <div class="container shadow-content-box">
                 <div class='row align-items-center'>
                     <div class='col'>
-                        <p class='fs-2 fw-bold home-title'>Stride Funding
+                        <p class='fs-2 fw-bold home-title'>
                             <span data-bs-toggle="tooltip" data-bs-placement="top"
                                 title='Classification of Instructional Programs'>CIP</span> -
                             <span data-bs-toggle="tooltip" data-bs-placement="top"
-                                title='Standard Occupational Classification'>SOC</spanr>
+                                title='Standard Occupational Classification'>SOC
+                                </spanr>
                                 Crosswalk Visualization
                         </p>
-                        This website is designed to observe visually the possible occupations of students based on their
+                        <p>
+                            This website is designed to observe visually the possible occupations of students based on their
                         field of study.
                         It can also be used to obtain data about CIP codes and SOC codes.
-                        <br />
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item text-primary">
-                                <a onclick="showCIPSOCCrosswalk();"><u>CIP - SOC Crosswalk</u></a>
-                            </li>
-                            <li class="list-group-item text-primary"><u>CIP Info</u></li>
-                            <li class="list-group-item text-primary"><u>SOC Info</u></li>
-                            <li class="list-group-item text-primary"><u>About</u></li>
-                        </ul>
+                        </p>
+                        <div class="row row-cols-lg-auto g-3 align-items-center justify-content-center pb-3">
+                            <div class="col-12">
+                                <label class="visually-hidden" for="cip_code_input">CIP code:</label>
+                                <div class="input-group">
+                                    <div class="input-group-text">CIP Code</div>
+                                    <input type="text" class="form-control" id="cip_code_input" placeholder="01.0101"
+                                        aria-describedby="cipHelp" onkeypress="hideError()">
+                                </div>
+                                <div id="cipHelp" class="form-text text-danger d-none">CIP code has to be of format XX, XX-XX or XX.XXXX.</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="cipCodeKind" id="cip2010Radio"
+                                        value="2010" checked>
+                                    <label class="form-check-label" for="cip2010Radio">2010</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="cipCodeKind" id="cip2020Radio"
+                                        value="2020">
+                                    <label class="form-check-label" for="cip2020Radio">2020</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" onclick="getSOCDataForCIPCode()" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id='gif' class="container d-none">
-            <div class='d-flex justify-content-center'>
-                <div class="spinner-border text-primary" role="status">
-                    <span class="visually-hidden">Loading...</span>
+            <div id='visualization' class="container d-none shadow-content-box">
+                <table class="table table-striped" id='only-table'>
+                    <thead>
+                      <tr>
+                        <th scope="col">SOC Code</th>
+                        <th scope="col">SOC Title</th>
+                        <th scope="col">Total Employed</th>
+                        <th scope="col">Annual Mean Compensation</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
+            </div>
+            <div id='gif' class="container d-none shadow-content-box">
+                <div class='d-flex justify-content-center'>
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
                 </div>
             </div>
         </div>
