@@ -1,11 +1,18 @@
 from enum import Enum
 from typing import Tuple, List
 from psycopg2 import sql
-from fastapi import FastAPI, Query, HTTPException
+from fastapi import FastAPI, Query, HTTPException, Request
+from fastapi.responses import HTMLResponse 
+from fastapi.staticfiles import StaticFiles 
+from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 from db_config.config import get_db_conn
+from fastapi.openapi.docs import get_swagger_ui_html, get_redoc_html
 
-app = FastAPI()
+app = FastAPI(docs_url=None, redoc_url=None)
+app.mount('/static', StaticFiles(directory='static'), name='static')
+templates = Jinja2Templates(directory='templates')
+
 db_conn = get_db_conn()
 
 CIP_CHECK_QUERY = 'SELECT cip2010code, {}, cip2020code from cip2010_cip2020 where {} = %(cip)s'
@@ -16,6 +23,7 @@ CIP_SOC_DATA_QUERY = """
                 SELECT occ_code, occ_title, tot_emp, a_mean from cip2020_soc2018 INNER JOIN bls2020 ON cip2020_soc2018.SOC2018Code=bls2020.occ_code
                 where cip2020code LIKE %(cip)s"""
 SOC_INFO_QUERY = """SELECT occ_code, occ_title, tot_emp, a_mean from bls2020 where occ_code = %(soc)s"""
+PHOTO_URL = 'https://static.wixstatic.com/media/076f47_f61ef19e30d743af9ff23c0817cce92d%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/076f47_f61ef19e30d743af9ff23c0817cce92d%7Emv2.png'
 
 
 class CIPCodeKind(str, Enum):
@@ -37,14 +45,22 @@ class CIPData(BaseModel):
     textchange: str
 
 
+@app.get("/docs", include_in_schema=False)
+def overridden_swagger():
+	return get_swagger_ui_html(openapi_url="/openapi.json", title="FastAPI", swagger_favicon_url=PHOTO_URL)
+
+@app.get("/redoc", include_in_schema=False)
+def overridden_redoc():
+	return get_redoc_html(openapi_url="/openapi.json", title="FastAPI", redoc_favicon_url=PHOTO_URL)
+
 @app.on_event("shutdown")
 def shutdown_event():
     db_conn.close()
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+@app.get("/", response_class=HTMLResponse)
+async def root(request: Request):
+    return templates.TemplateResponse("index.html", {'request': request})
 
 
 @app.get("/api/cip/{cip_code}", response_model=CIPData)
@@ -55,7 +71,6 @@ def get_cip_info(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$'))
             status_code=404, detail='cip_code not found')
     keyNames = ['cip2010code', 'cip2010title', 'cip2020code',
                 'cip2010title', 'action', 'textchange']
-    print(data)
     return convert_db_data_to_body(data[0], keyNames)
 
 
