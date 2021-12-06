@@ -94,7 +94,7 @@ def runTFIDF(documentA, documentB):
     return df
 
 if __name__ == "__main__":
-    documentA = str(input("Enter a sentence: "))
+    documentA = str(input("Enter a title: "))
     SOCdf = importingAndSetup()
     finaldf = pd.DataFrame(columns=['SOCtitle', 'SOCcode'])
     # Loop over all the rows in the SOCdf
