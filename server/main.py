@@ -71,7 +71,11 @@ def get_cip_info(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$'))
             status_code=404, detail='cip_code not found')
     keyNames = ['cip2010code', 'cip2010title', 'cip2020code',
                 'cip2020title', 'action', 'textchange']
-    return convert_db_data_to_body(data[0], keyNames)
+    dataset = list(data[0])
+    for i in range(len(dataset)):
+        if dataset[i] is None:
+            dataset[i] = ''
+    return convert_db_data_to_body(dataset, keyNames)
 
 
 @app.get("/api/cip/{cip_code}/soc/", response_model=List[SOCData])
