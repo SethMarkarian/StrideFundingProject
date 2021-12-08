@@ -40,7 +40,7 @@ class CIPData(BaseModel):
     cip2010code: str
     cip2010title: str
     cip2020code: str
-    cip2010title: str
+    cip2020title: str
     action: str
     textchange: str
 
@@ -70,7 +70,7 @@ def get_cip_info(cip_code: str = Query(..., regex=r'^\d{2}(\.(\d{2}|\d{4}))?$'))
         raise HTTPException(
             status_code=404, detail='cip_code not found')
     keyNames = ['cip2010code', 'cip2010title', 'cip2020code',
-                'cip2010title', 'action', 'textchange']
+                'cip2020title', 'action', 'textchange']
     return convert_db_data_to_body(data[0], keyNames)
 
 

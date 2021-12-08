@@ -88,18 +88,29 @@
                 </div>
             </div>
             <div id='visualization' class="container d-none shadow-content-box">
-                <table class="table table-striped" id='only-table'>
-                    <thead>
-                      <tr>
-                        <th scope="col">SOC Code</th>
-                        <th scope="col">SOC Title</th>
-                        <th scope="col">Total Employed</th>
-                        <th scope="col">Annual Mean Compensation</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                  </table>
+                <div class="row-cols-lg-auto g-3">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card mt-2 mb-2" id="cip-info"></div>                
+                        </div>
+                    </div>
+                    <div class="row" id='table-row'>
+                        <div class="col">
+                            <table class="table table-striped mb-2" id='only-table'>
+                                <thead>
+                                  <tr>
+                                    <th scope="col">SOC Code</th>
+                                    <th scope="col">SOC Title</th>
+                                    <th scope="col">Total Employed</th>
+                                    <th scope="col">Annual Mean Compensation</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id='gif' class="container d-none shadow-content-box">
                 <div class='d-flex justify-content-center'>
